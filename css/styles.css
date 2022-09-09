@@ -164,10 +164,6 @@ img {
 .navigation-text{
   display: flex;
   align-items: center;
-  
-  /* justify-content: space-between; */
-  /* width: 100%; */
-  /* margin: 0 46px 0 0;   */
 }
 
 .navigation-link {
@@ -482,6 +478,18 @@ img {
   padding: 0 0 30px 0;
 }
 
+.section--ourclients{
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+}
+
+.container--our-clients{
+  width: 1200px;
+  margin: 0;
+  padding: 94px 0 50px 0;
+
+}
 /* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
 /*PORTOFLIO.HTML portfolio-figure - klasa do opisu zdjec+naglowkow w zakladce - portfolio */
 .header-por {
