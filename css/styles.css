@@ -488,8 +488,25 @@ img {
   width: 1200px;
   margin: 0;
   padding: 94px 0 50px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
 }
+.container-icon-client{
+  display: flex;
+
+}
+.icon{
+  display: flex;
+  fill: red;
+  background-color: aqua;
+
+}
+.icon:hover{
+  background: pink;
+}
+
 /* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
 /*PORTOFLIO.HTML portfolio-figure - klasa do opisu zdjec+naglowkow w zakladce - portfolio */
 .header-por {
