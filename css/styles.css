@@ -11,7 +11,7 @@
   --creamy: #f5f4fa;
   --almost-white: #ececec;
   --white-light: #eeeeee;
-  --delicate-grey: #AFB1B8;
+  --delicate-grey: #afb1b8;
 
   --light-grey: #757575;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -210,6 +210,14 @@ img {
   list-style: none;
   display: block;
 }
+.icon-socialmedia {
+  display: flex;
+  width: 220px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: red;
+}
 .section--lorem {
   background: var(--white);
   display: flex;
@@ -320,24 +328,21 @@ img {
   justify-content: center;
   align-items: center;
   padding: 200px 0;
- 
-  /* background-position: 100%; */
-
-  
 }
+
 .efective-background {
   background: var(--dark-grey);
-  max-width: 1600px;
-  background-image: 
-  linear-gradient(
-  rgba(47, 48, 58, 0.4),
-  rgba(47, 48, 58, 0.4)),
-  url("../images/background.jpg");
-  background-position: 50%;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
+  width: 100%;
+  max-width: 1200px;
 }
 .solution-header {
   display: flex;
@@ -351,12 +356,8 @@ img {
   line-height: 1.35;
   height: 120px;
   width: 696px;
-  
-  /* padding-bottom: 30px; */
-  /* margin: 0  ; */
   margin-bottom: 30px;
   justify-content: center;
-  /* align-items: center; */
 }
 /* przycisk - zamów usługę */
 .button-order {
@@ -499,7 +500,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.container-icon-client{
+.container-icon-client {
   display: flex;
   border: 3px solid black;
   list-style: none;
@@ -517,7 +518,7 @@ img {
   border-radius: 4px;
 }
 .icon:hover {
- color: var(--blue);
+  color: var(--blue);
 }
 
 /* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
