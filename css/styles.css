@@ -36,7 +36,6 @@ figure {
   border-bottom: 1px solid var(--almost-white);
   display: flex;
   justify-content: center;
-  
 }
 
 figcaption {
@@ -61,9 +60,7 @@ figcaption {
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
 }
-
 
 ul,
 li {
@@ -155,13 +152,12 @@ img {
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
-  
- 
+
   height: 16px;
   padding: 32px 0 32px 0;
 }
 
-.navigation-text{
+.navigation-text {
   display: flex;
   align-items: center;
 }
@@ -174,8 +170,6 @@ img {
   letter-spacing: 0.02;
   color: var(--black);
   padding: 23px;
-  
-  
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -478,34 +472,30 @@ img {
   padding: 0 0 30px 0;
 }
 
-.section--ourclients{
+.section--ourclients {
   background: var(--white);
   display: flex;
   justify-content: center;
 }
 
-.container--our-clients{
+.container--our-clients {
   width: 1200px;
   margin: 0;
   padding: 94px 0 50px 0;
   justify-content: center;
   align-items: center;
-
 }
-.container-icon-client{
+.container-icon-client {
   display: flex;
   border: 3px solid black;
   list-style: none;
-
-
 }
-.icon{
+.icon {
   display: flex;
   fill: red;
   background-color: aqua;
-
 }
-.icon:hover{
+.icon:hover {
   background: pink;
 }
 
