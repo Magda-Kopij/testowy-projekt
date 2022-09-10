@@ -11,6 +11,7 @@
   --creamy: #f5f4fa;
   --almost-white: #ececec;
   --white-light: #eeeeee;
+  --delicate-grey: #AFB1B8;
 
   --light-grey: #757575;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -311,7 +312,7 @@ img {
 .address-linkf:focus {
   color: var(--blue);
 }
-/* czesc - "EFETYWNE ROZWIAZANIA..*/
+/* czesc - "EFEKTYWNE ROZWIAZANIA..*/
 .slider {
   width: 1200px;
   display: flex;
@@ -319,13 +320,22 @@ img {
   justify-content: center;
   align-items: center;
   padding: 200px 0;
-  background-size: contain;
-  background-position: 100%;
-  background-repeat: no-repeat;
-  background-image: url("./images/background.jpg");
+ 
+  /* background-position: 100%; */
+
+  
 }
 .efective-background {
   background: var(--dark-grey);
+  max-width: 1600px;
+  background-image: 
+  linear-gradient(
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)),
+  url("../images/background.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
 }
@@ -333,7 +343,6 @@ img {
   display: flex;
   box-sizing: content-box;
   color: var(--white);
-  background-color: var(--dark-grey);
   font-size: 44px;
   text-transform: uppercase;
   text-align: center;
@@ -342,6 +351,7 @@ img {
   line-height: 1.35;
   height: 120px;
   width: 696px;
+  
   /* padding-bottom: 30px; */
   /* margin: 0  ; */
   margin-bottom: 30px;
@@ -502,9 +512,12 @@ img {
   cursor: pointer;
   align-items: center;
   padding: auto;
+  background-position: 50%;
+  border: 1px solid var(--delicate-grey);
+  border-radius: 4px;
 }
 .icon:hover {
-  fill: var(--blue);
+ color: var(--blue);
 }
 
 /* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
