@@ -216,6 +216,7 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  color: var(--delicate-grey);
   background-color: red;
 }
 .section--lorem {
