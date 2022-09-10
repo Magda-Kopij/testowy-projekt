@@ -489,11 +489,13 @@ img {
   display: flex;
   border: 3px solid black;
   list-style: none;
+  justify-content: space-between;
 }
 .icon {
   display: flex;
   fill: red;
   background-color: aqua;
+  cursor: pointer;
 }
 .icon:hover {
   background: pink;
