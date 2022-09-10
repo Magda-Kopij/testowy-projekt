@@ -498,7 +498,7 @@ img {
   cursor: pointer;
 }
 .icon:hover {
-  background: pink;
+  color: var(--blue);
 }
 
 /* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
