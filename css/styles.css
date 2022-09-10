@@ -344,10 +344,11 @@ img {
   max-width: 1600px;
   margin: auto;
 }
-.instagram, 
-.twitter, .facebook, .linkedin{
-  border-radius: 50%;
+.icon-lorem{
+  background: tomato;
+
 }
+
 .solution-header {
   display: flex;
   box-sizing: content-box;
