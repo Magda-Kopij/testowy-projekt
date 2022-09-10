@@ -489,7 +489,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.container-icon-client {
+.container-icon-client{
   display: flex;
   border: 3px solid black;
   list-style: none;
