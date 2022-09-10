@@ -319,6 +319,10 @@ img {
   justify-content: center;
   align-items: center;
   padding: 200px 0;
+  background-size: contain;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-image: url("./images/background.jpg");
 }
 .efective-background {
   background: var(--dark-grey);
@@ -500,7 +504,7 @@ img {
   padding: auto;
 }
 .icon:hover {
-  color: var(--blue);
+  fill: var(--blue);
 }
 
 /* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
