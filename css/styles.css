@@ -341,8 +341,8 @@ img {
   background-size: cover;
   display: flex;
   justify-content: center;
-  width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
+  margin: auto;
 }
 .solution-header {
   display: flex;
