@@ -496,6 +496,8 @@ img {
   fill: red;
   background-color: aqua;
   cursor: pointer;
+  align-items: center;
+  padding: auto;
 }
 .icon:hover {
   color: var(--blue);
