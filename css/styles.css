@@ -680,5 +680,8 @@ img {
 }
 
 .icon-footer:hover{
-  fill: var(--blue);
+  background-color: var(--blue);
+}
+.icon-footer:focus{
+  border-color: var(--blue);
 }
