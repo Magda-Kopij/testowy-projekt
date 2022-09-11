@@ -201,6 +201,7 @@ img {
 .icon-telephone:hover,
 .icon-telephone:focus{
   fill: var(--blue);
+  color: var(--blue);
 }
 /*  konktakt - telefon, mail - po najechaniu kursorem */
 .mail-header:hover,
