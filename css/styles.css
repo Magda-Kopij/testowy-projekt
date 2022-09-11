@@ -224,9 +224,8 @@ img {
   width: 220px;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
   fill: var(--delicate-grey);
-  background-color: red;
+  
 }
 .section--lorem {
   background: var(--white);
