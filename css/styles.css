@@ -192,17 +192,13 @@ img {
   font-size: 14px;
 }
 
-.icon-mail:hover,
-.icon-mail:focus{
+.mail-header:hover .icon-mail{
   fill: var(--blue);
-
+}
+.telephone-header:hover .icon-telephone{
+  fill: var(--blue);
 }
 
-.icon-telephone:hover,
-.icon-telephone:focus{
-  fill: var(--blue);
-  
-}
 /*  konktakt - telefon, mail - po najechaniu kursorem */
 .mail-header:hover,
 .mail-header:focus {
