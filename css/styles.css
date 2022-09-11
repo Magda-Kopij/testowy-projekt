@@ -191,11 +191,17 @@ img {
   color: var(--light-grey);
   font-size: 14px;
 }
-/* .mail-header::before{
-  content: "";
-  display: flex;
-  background-size: contain;
-} */
+
+.icon-mail:hover,
+.icon-mail:focus{
+  fill: var(--blue);
+
+}
+
+.icon-telephone:hover,
+.icon-telephone:focus{
+  fill: var(--blue);
+}
 /*  konktakt - telefon, mail - po najechaniu kursorem */
 .mail-header:hover,
 .mail-header:focus {
