@@ -68,10 +68,7 @@ li {
   margin: 0;
   padding: 0;
 }
-.containerc {
-  display: flex;
-  justify-items: flex-end;
-}
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   background: var(--light);
@@ -194,6 +191,11 @@ img {
   color: var(--light-grey);
   font-size: 14px;
 }
+/* .mail-header::before{
+  content: "";
+  display: flex;
+  background-size: contain;
+} */
 /*  konktakt - telefon, mail - po najechaniu kursorem */
 .mail-header:hover,
 .mail-header:focus {
