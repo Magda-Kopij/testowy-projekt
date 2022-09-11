@@ -503,6 +503,14 @@ img {
   padding: 0 0 16px 0;
 }
 
+.link-socialmedia{
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.link-socialmedia:hover{
+fill: var(--blue);
+}
+
 .section--ourclients {
   background: var(--white);
   display: flex;
