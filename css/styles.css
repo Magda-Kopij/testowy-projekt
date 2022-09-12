@@ -70,14 +70,15 @@ li {
   padding: 0;
 }
 
-.linkedin,
+/* .linkedin,
 .facebook,
 .twitter,
 .instagram,
 .icon, 
 .icon-mail, 
 .icon-telephone,
-.icon-footer {
+/* .icon-footer  */
+* svg{
   fill: var(--delicate-grey);
 }
 
