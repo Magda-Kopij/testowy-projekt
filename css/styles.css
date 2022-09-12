@@ -509,6 +509,10 @@ fill: var(--white);
 background-color: var(--blue);
 }
 
+.link-icon:hover .icon{
+  fill: var(--blue);
+}
+
 .section--ourclients {
   background: var(--white);
   display: flex;
@@ -530,8 +534,6 @@ background-color: var(--blue);
 }
 .icon {
   display: flex;
-  fill: red;
-  background-color: aqua;
   cursor: pointer;
   align-items: center;
   padding: auto;
