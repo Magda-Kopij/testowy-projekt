@@ -236,7 +236,7 @@ img {
   list-style: none;
   display: block;
 }
-.icon-socialmedia {
+.icons__socialmedia {
   display: flex;
   width: 220px;
   align-items: center;
@@ -365,14 +365,12 @@ img {
 
 .efective-background {
   background: var(--dark-grey);
-
   display: flex;
   justify-content: center;
   max-width: 100%;
   margin: auto;
 }
 .icon-lorem {
-  background: tomato;
   margin-bottom: 30px;
 }
 
@@ -521,7 +519,6 @@ img {
 
 .link-socialmedia {
   border-radius: 50%;
-  border: 1px solid black;
   width: 44px;
   height: 44px;
 }
@@ -530,9 +527,10 @@ img {
   background-color: var(--blue);
 }
 
-.link-icon:hover .icon {
+.link-icon:hover .icon,
+.link-icon:focus .icon{
   fill: var(--blue);
-}
+} 
 
 .section--ourclients {
   background: var(--white);
@@ -549,7 +547,6 @@ img {
 }
 .container-icon-client {
   display: flex;
-  border: 3px solid black;
   list-style: none;
   justify-content: space-between;
 }
@@ -562,7 +559,8 @@ img {
   border: 1px solid var(--delicate-grey);
   border-radius: 4px;
 }
-.icon:hover {
+.icon:hover,
+.icon:focus {
   fill: var(--blue);
 }
 
@@ -693,14 +691,16 @@ img {
   padding: 72px 0 20px 0;
 }
 
-/* .footer__join-icon{
-  background-color: red;
-} */
+
 
 .icon-footer {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--white);
+}
+
+.link-footer{
+  display: inline-block;
 }
 
 .icon-footer:hover {
@@ -709,3 +709,4 @@ img {
 .icon-footer:focus {
   border-color: var(--blue);
 }
+
