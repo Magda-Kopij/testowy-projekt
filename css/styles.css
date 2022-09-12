@@ -215,10 +215,12 @@ img {
 
 /*  konktakt - telefon, mail - po najechaniu kursorem */
 
-.mail-header:hover .icon-mail {
+.mail-header:hover .icon-mail,
+.mail-header:focus .icon-mail {
   fill: var(--blue);
 }
-.telephone-header:hover svg {
+.telephone-header:hover .icon-telephone,
+.telephone-header:focus .icon-telephone, {
   fill: var(--blue);
 }
 .mail-header:hover,
@@ -701,7 +703,7 @@ img {
 
 .link-footer{
   display: inline-block;
-  
+
 }
 
 .icon-footer:hover {
