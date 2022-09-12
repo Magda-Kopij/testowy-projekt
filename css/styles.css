@@ -16,7 +16,10 @@
   --light-grey: #757575;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
+.link-icon:hover .icon{
+  fill: var(--blue);
+  border-color: var(--blue);
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -201,7 +204,7 @@ img {
 
 .mail-header:hover .icon-mail{
   fill: var(--blue);
-  border-color: var(--blue);
+
 }
 .telephone-header:hover svg{
   fill: var(--blue);
