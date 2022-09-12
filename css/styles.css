@@ -74,7 +74,9 @@ li {
 .facebook,
 .twitter,
 .instagram,
-.icon,
+.icon, 
+.icon-mail, 
+.icon-telephone,
 .icon-footer {
   fill: var(--delicate-grey);
 }
