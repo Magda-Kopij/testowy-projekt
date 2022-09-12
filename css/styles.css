@@ -716,5 +716,6 @@ img {
 }
 .icon-footer:focus {
   border-color: var(--blue);
+  background-color: var(--blue);
 }
 
