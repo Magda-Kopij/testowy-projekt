@@ -337,16 +337,6 @@ img {
 }
 /* czesc - "EFEKTYWNE ROZWIAZANIA..*/
 .slider {
-  width: 1200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 200px 0;
-}
-
-.efective-background {
-  background: var(--dark-grey);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -354,9 +344,24 @@ img {
     url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0;
+  
+  
+
+}
+
+.efective-background {
+  background: var(--dark-grey);
+
   display: flex;
   justify-content: center;
-  max-width: 1600px;
+  max-width: 100%;
   margin: auto;
 }
 .icon-lorem{
@@ -379,6 +384,7 @@ img {
   width: 696px;
   margin-bottom: 30px;
   justify-content: center;
+  
 }
 /* przycisk - zamów usługę */
 .button-order {
