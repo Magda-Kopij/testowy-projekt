@@ -198,14 +198,7 @@ img {
 } */
 
 /*  konktakt - telefon, mail - po najechaniu kursorem */
-.mail-header:hover,
-.mail-header:focus {
-  color: var(--blue);
-} 
-.telephone-header:hover,
-.telephone-header:focus {
-  color: var(--blue);
-} 
+
 .mail-header:hover .icon-mail{
   fill: var(--blue);
   border-color: var(--blue);
@@ -214,6 +207,14 @@ img {
   fill: var(--blue);
   
 }
+.mail-header:hover,
+.mail-header:focus {
+  color: var(--blue);
+} 
+.telephone-header:hover,
+.telephone-header:focus {
+  color: var(--blue);
+} 
 /* git */
 .address {
   text-decoration: none;
