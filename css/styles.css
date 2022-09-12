@@ -16,9 +16,7 @@
   --light-grey: #757575;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.button--menu:hover {
-  background: blueviolet;
-}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -192,21 +190,27 @@ img {
   font-size: 14px;
 }
 
-.mail-header:hover .icon-mail{
+/* .mail-header:hover .icon-mail{
   fill: var(--blue);
 }
 .telephone-header:hover .icon-telephone{
   fill: var(--blue);
-}
+} */
 
 /*  konktakt - telefon, mail - po najechaniu kursorem */
 .mail-header:hover,
 .mail-header:focus {
   color: var(--blue);
-}
+} 
 .telephone-header:hover,
 .telephone-header:focus {
   color: var(--blue);
+} 
+.mail-header:hover .icon-mail{
+  fill: var(--blue);
+}
+.telephone-header:hover .icon-telephone{
+  fill: var(--blue);
 }
 /* git */
 .address {
