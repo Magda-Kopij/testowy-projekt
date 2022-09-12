@@ -16,7 +16,7 @@
   --light-grey: #757575;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.link-icon:hover .icon{
+.link-icon:hover .icon {
   fill: var(--blue);
   border-color: var(--blue);
 }
@@ -68,6 +68,15 @@ ul,
 li {
   margin: 0;
   padding: 0;
+}
+
+.linkedin,
+.facebook,
+.twitter,
+.instagram,
+.icon,
+.icon-footer {
+  fill: var(--delicate-grey);
 }
 
 body {
@@ -202,22 +211,20 @@ img {
 
 /*  konktakt - telefon, mail - po najechaniu kursorem */
 
-.mail-header:hover .icon-mail{
+.mail-header:hover .icon-mail {
   fill: var(--blue);
-
 }
-.telephone-header:hover svg{
+.telephone-header:hover svg {
   fill: var(--blue);
-  
 }
 .mail-header:hover,
 .mail-header:focus {
   color: var(--blue);
-} 
+}
 .telephone-header:hover,
 .telephone-header:focus {
   color: var(--blue);
-} 
+}
 /* git */
 .address {
   text-decoration: none;
@@ -231,7 +238,6 @@ img {
   align-items: center;
   justify-content: space-between;
   fill: var(--delicate-grey);
-  
 }
 .section--lorem {
   background: var(--white);
@@ -351,9 +357,6 @@ img {
   justify-content: center;
   align-items: center;
   padding: 200px 0;
-  
-  
-
 }
 
 .efective-background {
@@ -364,10 +367,9 @@ img {
   max-width: 100%;
   margin: auto;
 }
-.icon-lorem{
+.icon-lorem {
   background: tomato;
   margin-bottom: 30px;
-
 }
 
 .solution-header {
@@ -384,7 +386,6 @@ img {
   width: 696px;
   margin-bottom: 30px;
   justify-content: center;
-  
 }
 /* przycisk - zamów usługę */
 .button-order {
@@ -514,18 +515,18 @@ img {
   padding: 0 0 16px 0;
 }
 
-.link-socialmedia{
+.link-socialmedia {
   border-radius: 50%;
   border: 1px solid black;
   width: 44px;
   height: 44px;
 }
-.link-socialmedia:hover{
-fill: var(--white);
-background-color: var(--blue);
+.link-socialmedia:hover {
+  fill: var(--white);
+  background-color: var(--blue);
 }
 
-.link-icon:hover .icon{
+.link-icon:hover .icon {
   fill: var(--blue);
 }
 
@@ -646,11 +647,9 @@ background-color: var(--blue);
   padding-bottom: 94px;
 }
 
-.container__footer{
+.container__footer {
   display: flex;
   width: 1200px;
-  
-
 }
 
 .container--footer {
@@ -659,7 +658,6 @@ background-color: var(--blue);
   flex-direction: column;
   /* margin: 0; */
   margin-right: 70px;
-
 }
 
 .logo--footer {
@@ -674,12 +672,11 @@ background-color: var(--blue);
   justify-content: center;
 }
 
-.footer__join{
+.footer__join {
   display: block;
   text-align: center;
-  
 }
-.footer-join-header{
+.footer-join-header {
   font-size: 14px;
   color: var(--white);
   text-align: center;
@@ -696,15 +693,15 @@ background-color: var(--blue);
   background-color: red;
 } */
 
-.icon-footer{
+.icon-footer {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--white);
 }
 
-.icon-footer:hover{
+.icon-footer:hover {
   background-color: var(--blue);
 }
-.icon-footer:focus{
+.icon-footer:focus {
   border-color: var(--blue);
 }
