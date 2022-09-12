@@ -524,6 +524,9 @@ img {
   width: 44px;
   height: 44px;
 }
+.icon-socialmedia{
+  border-radius: 50%;
+}
 .link-socialmedia:hover .icon-socialmedia,
 .link-socialmedia:focus .icon-socialmedia{
   fill: var(--white);
