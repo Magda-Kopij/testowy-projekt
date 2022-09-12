@@ -531,7 +531,9 @@ img {
 
 .link-icon:hover .icon,
 .link-icon:focus .icon{
-  fill: var(--blue);
+  fill: var(--white);
+  background: var(--blue);
+
 } 
 
 .section--ourclients {
