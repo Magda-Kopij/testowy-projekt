@@ -208,9 +208,11 @@ img {
 } 
 .mail-header:hover .icon-mail{
   fill: var(--blue);
+  border-color: var(--blue);
 }
-.telephone-header:hover .icon-telephone{
+.telephone-header:hover svg{
   fill: var(--blue);
+  
 }
 /* git */
 .address {
