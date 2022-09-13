@@ -709,7 +709,7 @@ img {
 .icon-footer:hover {
   background-color: var(--blue);
 }
-.icon-footer:focus {
+.link-footer:focus .icon-footer {
   border-color: var(--blue);
   background-color: var(--blue);
 }
