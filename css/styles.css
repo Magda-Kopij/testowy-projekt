@@ -698,9 +698,11 @@ img {
   fill: var(--white);
 }
 
-.link-footer {
+.link-footer {      
   display: inline-block;
-  border-radius: 50%;   
+  border-radius: 50%;  
+  width: 44px;
+  height: 44px; 
 }
 
 .icon-footer:hover {
