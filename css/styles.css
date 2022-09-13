@@ -78,7 +78,7 @@ li {
 .icon-mail, 
 .icon-telephone,
 /* .icon-footer  */
-* svg{
+* svg {
   fill: var(--delicate-grey);
 }
 
