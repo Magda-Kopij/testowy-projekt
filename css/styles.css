@@ -12,7 +12,7 @@
   --almost-white: #ececec;
   --white-light: #eeeeee;
   --delicate-grey: #afb1b8;
-
+  --almost-black: rgba(255, 255, 255, 0.1)
   --light-grey: #757575;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -46,10 +46,6 @@ figcaption {
   border-top: 0;
 }
 
-.address2 {
-  display: flex;
-  align-items: center;
-}
 .nav__container {
   display: flex;
   align-items: center;
@@ -698,12 +694,13 @@ img {
 
 .icon-footer {
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--almost-black);
   fill: var(--white);
 }
 
 .link-footer {
   display: inline-block;
+  border-radius: 50%;
 }
 
 .icon-footer:hover {
