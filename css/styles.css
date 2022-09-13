@@ -68,7 +68,6 @@ ul,
 li {
   margin: 0;
   padding: 0;
-
 }
 
 /* .linkedin,
@@ -220,7 +219,7 @@ img {
   fill: var(--blue);
 }
 .telephone-header:hover .icon-telephone,
-.telephone-header:focus .icon-telephone, {
+.telephone-header:focus .icon-telephone {
   fill: var(--blue);
 }
 .mail-header:hover,
@@ -524,20 +523,19 @@ img {
   width: 44px;
   height: 44px;
 }
-.icon-socialmedia{
+.icon-socialmedia {
   border-radius: 50%;
 }
 .link-socialmedia:hover .icon-socialmedia,
-.link-socialmedia:focus .icon-socialmedia{
+.link-socialmedia:focus .icon-socialmedia {
   fill: var(--white);
   background: var(--blue);
 }
 
 .link-icon:hover .icon,
-.link-icon:focus .icon{
+.link-icon:focus .icon {
   fill: var(--blue);
-
-} 
+}
 
 .section--ourclients {
   background: var(--white);
@@ -698,17 +696,14 @@ img {
   padding: 72px 0 20px 0;
 }
 
-
-
 .icon-footer {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   fill: var(--white);
 }
 
-.link-footer{
+.link-footer {
   display: inline-block;
-
 }
 
 .icon-footer:hover {
@@ -718,4 +713,3 @@ img {
   border-color: var(--blue);
   background-color: var(--blue);
 }
-
