@@ -217,13 +217,10 @@ img {
 .icon-telephone{
   margin-right: 10px;
 }
-/* .mail-header:hover .icon-mail{
-  fill: var(--blue);
-}
-.telephone-header:hover .icon-telephone{
-  fill: var(--blue);
-} */
 
+.contact__header{
+  align-items: center;
+}
 /*  konktakt - telefon, mail - po najechaniu kursorem */
 
 .mail-header:hover .icon-mail,
