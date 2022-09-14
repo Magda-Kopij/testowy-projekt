@@ -198,14 +198,17 @@ img {
   color: var(--light-grey);
   font-size: 14px;
   margin: 0px 50px 0px 0px;
-}
-.telephone-header {
-  margin: 0px 21px 0px 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
 }
 
 .telephone-header {
   color: var(--light-grey);
   font-size: 14px;
+  margin: 0px 21px 0px 0px;
+  padding-top: 33px;
+  padding-bottom: 31px;
 }
 
 /* .mail-header:hover .icon-mail{
