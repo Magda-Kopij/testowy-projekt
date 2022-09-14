@@ -210,7 +210,13 @@ img {
   padding-top: 33px;
   padding-bottom: 31px;
 }
+.icon-mail{
+  margin-right: 10px;
+}
 
+.icon-telephone{
+  margin-right: 10px;
+}
 /* .mail-header:hover .icon-mail{
   fill: var(--blue);
 }
