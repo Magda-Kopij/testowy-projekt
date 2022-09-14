@@ -211,10 +211,12 @@ img {
   padding-bottom: 31px;
 }
 .icon-mail{
+  position: absolute;
   margin-right: 10px;
 }
 
 .icon-telephone{
+  position: absolute;
   margin-right: 10px;
 }
 
