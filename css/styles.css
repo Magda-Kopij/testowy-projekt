@@ -216,8 +216,9 @@ img {
 }
 
 .icon-telephone{
- 
   margin-right: 10px;
+  top: 3px;
+  position: relative;
 }
 
 .contact__header{
