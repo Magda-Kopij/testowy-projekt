@@ -16,12 +16,9 @@
   --light-grey: #757575;
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   --shadow-button: 0px 1px 1px rgba(0, 0, 0, 0.12),
-   0px 4px 4px rgba(0, 0, 0, 0.06), 
-   1px 4px 6px rgba(0, 0, 0, 0.16);
-   --shadow-filter: 0px 1px 1px rgba(0, 0, 0, 0.12),
-   0px 4px 4px rgba(0, 0, 0, 0.06), 
-   1px 4px 6px rgba(0, 0, 0, 0.16);
-
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  --shadow-filter: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .link-icon:hover .icon {
   fill: var(--blue);
@@ -200,7 +197,6 @@ img {
   margin: 0px 50px 0px 0px;
   padding-top: 32px;
   padding-bottom: 32px;
-
 }
 
 .telephone-header {
@@ -210,16 +206,15 @@ img {
   padding-top: 33px;
   padding-bottom: 31px;
 }
-.icon-mail{
-
+.icon-mail {
   margin-right: 10px;
 }
 
-.icon-telephone{
+.icon-telephone {
   margin-right: 10px;
 }
 
-.contact__header{
+.contact__header {
   display: flex;
   align-items: center;
 }
@@ -539,6 +534,10 @@ img {
 .icon-socialmedia {
   border-radius: 50%;
 }
+.link-icon {
+  display: flex;
+  align-items: center;
+}
 .link-socialmedia:hover .icon-socialmedia,
 .link-socialmedia:focus .icon-socialmedia {
   fill: var(--white);
@@ -565,6 +564,7 @@ img {
 }
 .container-icon-client {
   display: flex;
+  align-items: center;
   list-style: none;
   justify-content: space-between;
 }
@@ -648,11 +648,9 @@ img {
 .button--menu:focus {
   background-color: var(--blue);
   color: var(--white);
-   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-   0px 4px 4px rgba(0, 0, 0, 0.06), 
-   1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 
 .description-por,
 .header-por {
@@ -713,11 +711,11 @@ img {
   align-items: center;
   padding: 72px 0 20px 0;
 }
-.card{
+.card {
   cursor: pointer;
 }
-.card:hover{
-   box-shadow: var(--shadow-filter);
+.card:hover {
+  box-shadow: var(--shadow-filter);
 }
 
 .icon-footer {
@@ -726,11 +724,11 @@ img {
   fill: var(--white);
 }
 
-.link-footer {      
+.link-footer {
   display: inline-block;
-  border-radius: 50%;  
+  border-radius: 50%;
   width: 44px;
-  height: 44px; 
+  height: 44px;
 }
 
 .icon-footer:hover {
