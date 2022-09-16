@@ -217,11 +217,10 @@ img {
 
 .icon-telephone{
   margin-right: 10px;
-  top: 3px;
-  position: relative;
 }
 
 .contact__header{
+  display: flex;
   align-items: center;
 }
 /*  konktakt - telefon, mail - po najechaniu kursorem */
@@ -436,6 +435,8 @@ img {
 .mail-header,
 .telephone-header {
   color: var(--light-grey);
+  display: flex;
+  align-items: center;
 }
 
 /* INDEX.HTML t- dotyczy tekstu i naglowków na glownej stronie index.html*/
