@@ -6,6 +6,7 @@
   --light-grey: #757575;
   --dark-grey: #2f303a;
   --beige: rgba(255, 255, 255, 0.6);
+  --dark-blue: rgba(0, 44, 139);
   /* on all pages */
   --light: #e5e5e5;
   --creamy: #f5f4fa;
@@ -78,6 +79,11 @@ li {
 .icon-mail, 
 .icon-telephone,
 /* .icon-footer  */
+
+.icon-mail,
+.icon-telephone{
+  fill: var(--light-grey);
+}
 * svg {
   fill: var(--delicate-grey);
 }
@@ -425,6 +431,11 @@ img {
   text-overflow: ellipsis;
   border: 0px;
   margin: 0;
+}
+.button-order:hover,      
+.button-order:focus {
+background-color: var(--dark-blue);
+color:var(--almost-white);
 }
 
 .mail-header,
