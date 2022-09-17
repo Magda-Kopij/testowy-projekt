@@ -200,7 +200,7 @@ img {
 .mail-header {
   color: var(--light-grey);
   font-size: 14px;
-  margin: 0px 50px 0px 0px;
+  margin: 0;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -445,7 +445,8 @@ color:var(--almost-white);
   display: flex;
   align-items: center;
   height: 16px;
-  padding: 30px; 
+  padding: 15px;  
+  
 }
 
 /* INDEX.HTML t- dotyczy tekstu i naglowków na glownej stronie index.html*/
