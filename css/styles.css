@@ -21,6 +21,7 @@
   --shadow-filter: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     --background--modal: rgba(0, 0, 0, 0.2);
+    --background-whatwedo: rgba(47, 48, 58, 0.8);
 }
 .link-icon:hover .icon {
   fill: var(--blue);
