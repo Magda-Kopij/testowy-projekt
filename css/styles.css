@@ -20,10 +20,12 @@
     0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   --shadow-filter: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    --background--modal: rgba(0, 0, 0, 0.2);
 }
 .link-icon:hover .icon {
   fill: var(--blue);
   border-color: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 * {
   box-sizing: border-box;
@@ -108,6 +110,7 @@ a {
 .button:focus {
   background-color: var(--blue);
   color: var(--white);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 img {
   display: block;
@@ -191,6 +194,7 @@ img {
 .navigation-link:hover,
 .navigation-link:focus {
   color: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*  podswietlenie biezacej strony - portoflio*/
 .portfolio {
@@ -230,18 +234,22 @@ img {
 .mail-header:hover .icon-mail,
 .mail-header:focus .icon-mail {
   fill: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .telephone-header:hover .icon-telephone,
 .telephone-header:focus .icon-telephone {
   fill: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-header:hover,
 .mail-header:focus {
   color: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .telephone-header:hover,
 .telephone-header:focus {
   color: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* git */
 .address {
@@ -358,6 +366,7 @@ img {
 .address-linkf:hover,
 .address-linkf:focus {
   color: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* czesc - "EFEKTYWNE ROZWIAZANIA..*/
 .slider {
@@ -437,6 +446,7 @@ img {
 .button-order:focus {
 background-color: var(--dark-blue);
 color:var(--almost-white);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-header,
@@ -557,11 +567,13 @@ color:var(--almost-white);
 .link-socialmedia:focus .icon-socialmedia {
   fill: var(--white);
   background: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icon:hover .icon,
 .link-icon:focus .icon {
   fill: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section--ourclients {
@@ -595,6 +607,7 @@ color:var(--almost-white);
 .icon:hover,
 .icon:focus {
   fill: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
@@ -659,12 +672,14 @@ color:var(--almost-white);
   color: var(--white);
   cursor: pointer;
   box-shadow: var(--shadow-button);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button--menu:focus {
   background-color: var(--blue);
   color: var(--white);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .description-por,
@@ -731,6 +746,7 @@ color:var(--almost-white);
 }
 .card:hover {
   box-shadow: var(--shadow-filter);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-footer {
@@ -748,8 +764,10 @@ color:var(--almost-white);
 
 .icon-footer:hover {
   background-color: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-footer:focus .icon-footer {
   border-color: var(--blue);
   background-color: var(--blue);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
