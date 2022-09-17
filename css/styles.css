@@ -208,7 +208,7 @@ img {
 .telephone-header {
   color: var(--light-grey);
   font-size: 14px;
-  margin: 0px 21px 0px 0px;
+  margin-right: 21px;
   padding-top: 33px;
   padding-bottom: 31px;
 }
