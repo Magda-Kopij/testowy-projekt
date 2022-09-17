@@ -16,12 +16,14 @@
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="modal">
-      <div class="window">
-        
-
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
       </div>
     </div>
+    
+
+
     <header class="section-header">
       <div class="nav__container">
         <div class="nav__container--left">
@@ -66,7 +68,7 @@
           <h1 class="solution-header">
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
-          <button class="button-order" type="button">Zamów usługę</button>
+          <button class="button-order" type="button" data-modal-open>Zamów usługę</button>
         </div>
       </section>
 
@@ -568,5 +570,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
