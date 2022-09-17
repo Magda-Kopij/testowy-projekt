@@ -74,14 +74,8 @@ li {
   padding: 0;
 }
 
-/* .linkedin,
-.facebook,
-.twitter,
-.instagram,
-.icon, 
-.icon-mail, 
-.icon-telephone,
-/* .icon-footer  */
+
+
 
 .icon-mail,
 .icon-telephone{
@@ -284,6 +278,35 @@ img {
   list-style: none;
 }
 
+.work-pic{
+  position: relative;
+}
+.label{
+  background-color: var(--background-whatwedo);
+  width: 370px;
+  height: 70px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 27px 0 27px 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+
+
+
+  
+
+
+}
 .work {
   display: flex;
   justify-items: flex-start;
