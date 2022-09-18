@@ -7,6 +7,7 @@
   --dark-grey: #2f303a;
   --beige: rgba(255, 255, 255, 0.6);
   --dark-blue: rgba(0, 44, 139);
+  --background-overlay:  rgba(33, 150, 243, 0.9);
   /* on all pages */
   --light: #e5e5e5;
   --creamy: #f5f4fa;
@@ -135,14 +136,10 @@ li {
 .portfolio__image:hover .overlay{
   transform: translateY(0);
 }
-.img__box{
-  position: relative;
-  /* overflow: hidden; */
 
-}
 .overlay{
   position: absolute;
-  transition-property: background-color, transform;
+  transition-property: background-color, transform, duration;
   top: 0;
   left: 0;
   width: 100%;
@@ -155,7 +152,7 @@ li {
   letter-spacing: 0.03em;
   transform: translateY(100%);
   transition-duration: 250ms;
-  background: rgba(33, 150, 243, 0.9);
+  background: var(--background-overlay);
 
 }
 
