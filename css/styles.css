@@ -55,9 +55,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transition-property: visibility, opacity, transfom;
+  transition-property: visibility, opacity, transform;
   transform: translate(-50%,-50%);
-  transform: scale(360deg);
   scale: 1;
 
   z-index: 10;
@@ -65,7 +64,7 @@
   align-items: center;
 
   animation-name: modal__animation;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-timing-function: linear;
 
 }
@@ -911,18 +910,14 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 @keyframes modal__animation{
   0%{
     scale: 0;
-    background-color: teal;
-    transform: rotate(20deg);
   }
 
- 50%{scale: 0.5;
-    background-color: pink;
-    transform: rotate(70deg);
+ 50%{
+    scale: 0.5;
   }
 
-  100% {scale: 1;
-    background-color: tomato;
-    transform: rotate(360deg);
+  100% {
+    scale: 1;
   }
 }
 
