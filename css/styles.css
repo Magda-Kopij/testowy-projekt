@@ -57,10 +57,20 @@
   left: 50%;
   transition-property: visibility, opacity, transfom;
   transform: translate(-50%,-50%);
+  scale: 1;
 
   z-index: 10;
+  display: flex;
+  align-items: center;
+
+  animation-name: modal__animation;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+
 }
 .close-btn{
+  display: flex;
+  align-items: center;
   position: absolute;
   color: var(--black);
   top: 8px;
@@ -77,8 +87,11 @@
 }
 .close-btn__icon{
   border-radius: 50%;
-    
+  position: relative;
+  display: flex;
+  align-items: center;    
 }
+
 .close-btn:hover .close-btn__icon,
 .close-btn:focus .close-btn__icon{
   background-color: rgb(88, 88, 88);
@@ -892,3 +905,25 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--black);
 
 }
+
+
+@keyframes modal__animation{
+  0%{
+    scale: 0;
+    background-color: teal;
+  }
+
+ 50%{scale: 0.5;
+    background-color: pink;
+  }
+
+  100% {scale: 1;
+    background-color: tomato;
+  }
+}
+
+
+
+
+}
+
