@@ -296,6 +296,21 @@ position: relative;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*  podswietlenie biezacej strony - portoflio*/
+.agencja{
+  color: var(--blue);
+}
+.agencja::after{
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 53px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--blue);
+  bottom: -10px;
+  left: 23px;
+
+}
 .portfolio {
   color: var(--blue);
 }
@@ -308,7 +323,7 @@ position: relative;
   height: 4px;
   border-radius: 2px;
   background-color: var(--blue);
-  bottom: -9px;
+  bottom: -10px;
   left: 23px;
 
 }
