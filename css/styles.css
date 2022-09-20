@@ -131,6 +131,7 @@ figcaption {
   width: 100%;
   max-width: 1200px;
   justify-content: space-between;
+  position: relative;
 }
 .nav__container--left {
   display: flex;
@@ -268,7 +269,7 @@ img {
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
-
+position: relative;
   height: 16px;
   padding: 32px 0 32px 0;
 }
@@ -276,6 +277,7 @@ img {
 .navigation-text {
   display: flex;
   align-items: center;
+  
 }
 
 .navigation-link {
@@ -286,6 +288,7 @@ img {
   letter-spacing: 0.02;
   color: var(--black);
   padding: 23px;
+  position: relative;
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -295,6 +298,19 @@ img {
 /*  podswietlenie biezacej strony - portoflio*/
 .portfolio {
   color: var(--blue);
+}
+
+.portfolio::after{
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 54px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--blue);
+  bottom: -9px;
+  left: 23px;
+
 }
 /*  kontakt header (mail, telefon)!*/
 .mail-header {
