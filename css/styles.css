@@ -48,7 +48,7 @@
   background-color: var(--background--modal);
   z-index: 10;
   opacity: 1;
-  transition: scale 1s linear, scale 1s linear;
+  
 
 }
 .modal{
@@ -60,18 +60,18 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transition-property: visibility, opacity, scale, transform;
+  transition-property: visibility, opacity, transform;
   transform: translate(-50%,-50%);
   scale: 1;
 
   z-index: 10;
   display: flex;
   align-items: center;
-  transition-timing-function: ease-in-out;
   animation-name: modal__animation;
   animation-duration: 0.5s;
   animation-timing-function: linear;
   animation-fill-mode: none;
+
 
 }
 .close-btn{
@@ -107,7 +107,7 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  display: none;
+  display: none; 
 }
 figure {
   display: block;
