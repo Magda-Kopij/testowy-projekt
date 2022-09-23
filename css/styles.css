@@ -79,6 +79,10 @@
 
 }
 
+.modal__form{
+  display: inline-block;
+  margin: 40px;
+}
 .close-btn{
   box-sizing: content-box;
   display: inline-block;
