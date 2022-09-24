@@ -109,8 +109,20 @@
   line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--light-grey);
+  margin-bottom: 4px;
   
 
+}
+.modal__cell{
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.modal__svg{
+  fill: var(--delicate-black);
+  
 }
 .close-btn{
   box-sizing: content-box;
