@@ -568,9 +568,9 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <form class="modal__form">
-          <p class="modal__form-title">
+          <legend class="modal__form-title">
             Zostaw swoje dane w formularzu poniżej
-          </p>
+          </legend>
           <label >
             
               <p class="modal__label">Imię</p> 
@@ -592,7 +592,7 @@
                   href="./images/icons.svg#icon-telephone-modal">
                 </use>
               </svg>
-              <input class="modal__cell" type="tel" name="telephone" step="1">
+              <input class="modal__cell" type="tel" name="telephone" step="1" required="">
           </div>
           </label>
           <label>
@@ -603,7 +603,7 @@
                 href="./images/icons.svg#icon-envelope-modal">
               </use>
             </svg>
-            <input class="modal__cell" type="mail" name="name"/>
+            <input class="modal__cell" type="email" name="name" required=""/>
             </div>
           </label>
           <label>
@@ -617,11 +617,11 @@
           </label>
           <label>
             <div class="modal__checkbox">
-              <input type="checkbox" name="regimen" value="regimen"/>
+              <input type="checkbox" name="regimen" value="regimen" required=""/>
               Oświadczam, iż akceptuję <a class="modal__link-reg" href="">Regulamin</a> i <a class="modal__link-policy" href="">Politykę Prywatności.</a>
             </div>
           </label>
-          <button class="modal__btn-form"type="submit">Wyślij</button>
+          <button class="modal__btn-form" type="submit">Wyślij</button>
 
         
 
