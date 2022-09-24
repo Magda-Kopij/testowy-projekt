@@ -571,34 +571,49 @@
           <p class="modal__form-title">
             Zostaw swoje dane w formularzu poniżej
           </p>
-          <label>
-            <p class="modal__label">Imię</p>
-           
-          <input class="modal__cell" type="text" name="name" placeholder="Username"> 
-            <svg class="modal__svg" width="12" height="12">
-            <use
-              href="./images/icons.svg#icon-user">
-            </use>
-            </svg>
-           
+          <label >
+            
+              <p class="modal__label">Imię</p> 
+              <div class="modal__text-icon">
+                <svg class="modal__svg" width="12" height="12">
+                  <use
+                    href="./images/icons.svg#icon-user">
+                  </use>
+                </svg>
+              <input class="modal__cell" type="text" name="name" required=""> 
+            </div>
           </label>
+
           <label>
-           <p class="modal__label">Telefon</p> 
-          <input class="modal__cell" type="tel" name="telephone" step="1"/>
+            <p class="modal__label"> Telefon</p>
+            <div class="modal__text-icon">
+              <svg class="modal__svg" width="12" height="12">
+                <use
+                  href="./images/icons.svg#icon-telephone-modal">
+                </use>
+              </svg>
+              <input class="modal__cell" type="tel" name="telephone" step="1">
+          </div>
           </label>
           <label>
             <p class="modal__label">Email</p>
-          <input class="modal__cell" type="mail" name="name"
-          
-          />
+            <div class="modal__text-icon">
+            <svg class="modal__svg" width="12" height="12">
+              <use
+                href="./images/icons.svg#icon-envelope-modal">
+              </use>
+            </svg>
+            <input class="modal__cell" type="mail" name="name"/>
+            </div>
           </label>
           <label>
-            <p class="modal__label">Komentarz</p>
+           <p class="modal__label">Komentarz</p>
             
             <textarea
               name="comment"
               placeholder=" Wprowadź tekst"
               maxlength="300"
+              
               >
               </textarea>
           </label>
