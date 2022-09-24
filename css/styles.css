@@ -16,6 +16,8 @@
   --delicate-grey: #afb1b8;
   --almost-black: rgba(255, 255, 255, 0.1);
   --light-grey: #757575;
+  --delicate-black:  #212121;
+
   --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   --shadow-button: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -58,6 +60,9 @@
 }
 
 .modal{
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
   width: 528px;
   height: 581px;
   background-color: var(--white);
@@ -84,6 +89,27 @@
   flex-direction: column;
   margin: 40px;
   max-width: 448px;
+
+}
+
+.modal__form-title{
+  width: 448px;
+  height: 23px;
+  color: var(--delicate-black);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom:  30px; 
+}
+.modal__label{
+  width:24px;
+  height: 14px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: var(--light-grey);
+  
 
 }
 .close-btn{
