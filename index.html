@@ -563,6 +563,26 @@
             </a>
           </div>
         </div>
+          <div class="footer__newsletter">
+            <p class="footer__newsletter-header">ZAPISZ SIĘ DO NEWSLETTERA</p>
+              <div class="footer__newsletter-label">
+                <label>
+                  <input class="footer__newsletter-email" type="email" name="email-footer"/>
+                </label>
+                  <button type="submit" class="footer__newsletter-btn">Zapisz się
+                    <svg class="footer__newsletter-icon" width="358" height="50">
+                      <use
+                        href="./images/icons.svg#icon-icon-send">
+                      </use>
+                    </svg>
+                  </button>
+                
+
+
+
+
+          </div>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -571,39 +591,40 @@
           <legend class="modal__form-title">
             Zostaw swoje dane w formularzu poniżej
           </legend>
-          <label >
-            
+          <label>
               <p class="modal__label">Imię</p> 
-              <div class="modal__text-icon modal-user">
-                <svg class="modal__svg" width="12" height="12">
-                  <use
-                    href="./images/icons.svg#icon-user">
-                  </use>
-                </svg>
-              <input class="modal__cell" type="text" name="name" required=""> 
-            </div>
+                <div class="modal__text-icon ">
+                  <input class="modal__cell" type="text" name="name" required=""> 
+                    <svg class="modal__svg" width="12" height="12">
+                      <use
+                        href="./images/icons.svg#icon-user">
+                      </use>
+                    </svg>
+                
+                </div>
           </label>
 
           <label>
             <p class="modal__label"> Telefon</p>
             <div class="modal__text-icon">
-              <svg class="modal__svg" width="12" height="12">
-                <use
-                  href="./images/icons.svg#icon-telephone-modal">
-                </use>
-              </svg>
               <input class="modal__cell" type="tel" name="telephone" step="1" required="">
+                <svg class="modal__svg" width="12" height="12">
+                  <use
+                    href="./images/icons.svg#icon-telephone-modal">
+                  </use>
+                </svg>
+              
           </div>
           </label>
-          <label>
+          <label class="modal__label-main">
             <p class="modal__label">Email</p>
             <div class="modal__text-icon">
-            <svg class="modal__svg" width="12" height="12">
-              <use
-                href="./images/icons.svg#icon-envelope-modal">
-              </use>
-            </svg>
-            <input class="modal__cell" type="email" name="name" required=""/>
+              <input class="modal__cell" type="email" name="name" required=""/>
+                <svg class="modal__svg" width="12" height="12">
+                  <use
+                    href="./images/icons.svg#icon-envelope-modal">
+                  </use>
+                </svg>
             </div>
           </label>
           <label>
@@ -618,6 +639,11 @@
           <label>
             <div class="modal__checkbox">
               <input type="checkbox" name="regimen" value="regimen" required=""/>
+              <svg class="modal__svg-check check-hidden" width="16" height="15">
+                  <use
+                    href="./images/icons.svg#icon-check">
+                  </use>
+                </svg>
               Oświadczam, iż akceptuję <a class="modal__link-reg" href="">Regulamin</a> i <a class="modal__link-policy" href="">Politykę Prywatności.</a>
             </div>
           </label>
