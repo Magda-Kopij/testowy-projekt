@@ -563,12 +563,12 @@
             </a>
           </div>
         </div>
-          <div class="footer__newsletter">
+        <div class="footer__newsletter">
             <p class="footer__newsletter-header">ZAPISZ SIĘ DO NEWSLETTERA</p>
-              <div class="footer__newsletter-label">
-                <label>
-                  <input class="footer__newsletter-email" type="email" name="email-footer"/>
-               
+              <form>
+                <label class="footer__newsletter-label">
+                  <input class="footer__newsletter-email" type="email" name="email-footer" placeholder="E-mail" required="">
+          
                   <button type="submit" class="footer__newsletter-btn">Zapisz się
                     <svg class="footer__newsletter-icon" width="24" height="24">
                       <use
@@ -576,14 +576,11 @@
                       </use>
                     </svg>
                   </button>
+                  
                  </label>
-
-
-
-
-          </div>
+                 </form>
+              </div>
         </div>
-      </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -591,9 +588,10 @@
           <legend class="modal__form-title">
             Zostaw swoje dane w formularzu poniżej
           </legend>
-          <label>
-              <p class="modal__label">Imię</p> 
-                <div class="modal__text-icon ">
+          <label class="modal__label">
+              Imię
+              </label>
+                <div class="modal__text-icon">
                   <input class="modal__cell" type="text" name="name" required=""> 
                     <svg class="modal__svg" width="12" height="12">
                       <use
@@ -602,10 +600,11 @@
                     </svg>
                 
                 </div>
-          </label>
+          
 
-          <label>
-            <p class="modal__label"> Telefon</p>
+          <label class="modal__label">
+            Telefon
+            </label>
             <div class="modal__text-icon">
               <input class="modal__cell" type="tel" name="telephone" step="1" required="">
                 <svg class="modal__svg" width="12" height="12">
@@ -615,9 +614,10 @@
                 </svg>
               
           </div>
-          </label>
-          <label class="modal__label-main">
-            <p class="modal__label">Email</p>
+          
+          <label class="modal__label">
+            Email
+            </label>
             <div class="modal__text-icon">
               <input class="modal__cell" type="email" name="name" required=""/>
                 <svg class="modal__svg" width="12" height="12">
@@ -626,16 +626,16 @@
                   </use>
                 </svg>
             </div>
-          </label>
-          <label>
-           <p class="modal__label">Komentarz</p>
-            
+        
+          <label class="modal__label">
+           Komentarz
+           </label> 
             <textarea
               name="comment"
               placeholder="Wprowadź tekst"          
               >
               </textarea>
-          </label>
+         
           <label>
             <div class="modal__checkbox">
               <input type="checkbox" name="regimen" value="regimen" required=""/>
