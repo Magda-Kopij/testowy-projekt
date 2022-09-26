@@ -585,14 +585,19 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <form class="modal__form">
-          <legend class="modal__form-title">
+          <label class="modal__form-title">
             Zostaw swoje dane w formularzu poniżej
-          </legend>
+          </label>
           <label class="modal__label">
               Imię
               </label>
                 <div class="modal__text-icon">
-                  <input class="modal__cell" type="text" name="name" required=""> 
+                  <input class="modal__cell" 
+                  type="text" 
+                  name="name" 
+                  required="" 
+                  pattern="^[a-zA-Ząęźćż]+$" 
+                  title="Proszę wpisać swoje imię nie korzytając z cyfr, spacji lub znaków specjalnych."> 
                     <svg class="modal__svg" width="12" height="12">
                       <use
                         href="./images/icons.svg#icon-user">
@@ -606,7 +611,15 @@
             Telefon
             </label>
             <div class="modal__text-icon">
-              <input class="modal__cell" type="tel" name="telephone" step="1" required="">
+              <input class="modal__cell" 
+              type="tel" 
+              name="telephone" 
+              required=""
+              pattern="^[0-9]+$" 
+              title="Proszę użyć tylko liczb i nie korzystać ze znaków specjalnych."
+              minlength="7"
+              maxlength="11"
+              title="Proszę użyć tylko liczb i nie korzystać ze znaków specjalnych.">
                 <svg class="modal__svg" width="12" height="12">
                   <use
                     href="./images/icons.svg#icon-telephone-modal">
@@ -619,7 +632,12 @@
             Email
             </label>
             <div class="modal__text-icon">
-              <input class="modal__cell" type="email" name="name" required=""/>
+              <input class="modal__cell" 
+              type="email" 
+              name="name" 
+              required="" 
+              pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
+              title="Poprawny przykład formatu email: jankowalski@domena.pl"/>
                 <svg class="modal__svg" width="12" height="12">
                   <use
                     href="./images/icons.svg#icon-envelope-modal">
@@ -636,20 +654,21 @@
               >
               </textarea>
          
-          <label>
-            <div class="modal__checkbox">
+          
+            <span class="modal__checkbox">
               <input type="checkbox" name="regimen" value="regimen" required=""/>
-              <svg class="modal__svg-check check-hidden" width="16" height="15">
-                  <use
-                    href="./images/icons.svg#icon-check">
-                  </use>
-                </svg>
-              Oświadczam, iż akceptuję <a class="modal__link-reg" href="">Regulamin</a> i <a class="modal__link-policy" href="">Politykę Prywatności.</a>
-            </div>
-          </label>
-          <button class="modal__btn-form" type="submit">Wyślij</button>
+                <svg class="modal__svg-check " width="16" height="15">
+                    <use
+                      href="./images/icons.svg#icon-check">
+                    </use>
+                  </svg>
+                <label>Oświadczam, iż akceptuję <a class="modal__link-reg" href="">
+                Regulamin </a> i <a class="modal__link-policy" href="">Politykę Prywatności.</a></label>
+            </span>
+              <div class="modal__btn-form-container">
+                <button class="modal__btn-form" type="submit">Wyślij</button>
 
-        
+              </div>
 
 
 

@@ -91,7 +91,7 @@
   flex-direction: column;
   margin: 40px;
   max-width: 448px;
-  /* justify-content: center; */
+  justify-content: center;
   /* align-items: center; */
 
 }
@@ -142,6 +142,7 @@
 .modal__cell:focus-within + svg{
   fill: var(--blue);
   border-color: var(--blue);
+  border:  none;
 }
 
 
@@ -155,6 +156,22 @@
 .modal__text-icon:focus .modal__cell{
  border-color: var(--blue);
 transition: var(--transition-hover);
+}
+.modal__svg-check{
+  fill: var(--white);
+  background-color: var(--blue);
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+
+}
+.modal__svg-check{
+  fill: var(--white);
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+
 }
 .close-btn{
   box-sizing: content-box;
@@ -189,7 +206,23 @@ textarea{
   line-height: 14px;
   font-size: 12px;
   color: rgba(117, 117, 117, 0.5);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+textarea:hover{
+  border-color: var(--blue);
+  transition: var(--transition-hover);
+}
+.modal__link-reg,
+.modal__link-policy{
+  color: var(--blue);
+  text-decoration: underline;
+  cursor: pointer;
 
+}
+.modal__link-reg:hover,
+.modal__link-policy:hover{
+  color: var(--dark-blue)
 }
 .modal__checkbox{
   color: var(--light-grey);
@@ -198,7 +231,16 @@ textarea{
   line-height: 24px;
   letter-spacing: 0.03em;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  
 
+}
+.modal__btn-form-container{
+  display: flex;
+  justify-content: center;
 }
 .modal__btn-form{
   display: flex;
@@ -219,7 +261,13 @@ textarea{
   cursor: pointer;
   padding: 10px 76px 10px 76px;
   margin: 0;
+  
  
+}
+.modal__btn-form:hover{
+  transition: var(--transition-hover);
+  background-color: var(--dark-blue);
+
 }
 
 .modal__text-icon .modal__svg:hover{
