@@ -655,26 +655,30 @@
               </textarea>
          
           
-            <span class="modal__checkbox">
-              <input type="checkbox" name="regimen" value="regimen" required="" checked/>
+            <label class="modal__checkbox">
+              <input 
+              class="checkbox__reg-policy"
+              type="checkbox" 
+              name="regimen" 
+              value="accepted" 
+              checked
+              />
                 <svg class="modal__svg-check " width="16" height="15">
                     <use
                       href="./images/icons.svg#icon-check">
                     </use>
-                  </svg>
-                <label>Oświadczam, iż akceptuję <a class="modal__link-reg" href="">
-                Regulamin </a> i <a class="modal__link-policy" href="">Politykę Prywatności.</a></label>
-            </span>
+                  </svg> 
+                Oświadczam, iż akceptuję 
+                  <a class="modal__link-reg" href=""> Regulamin </a> i
+                  <a class="modal__link-policy" href=""> Politykę Prywatności.</a>
+                
+                </label>
+           
               <div class="modal__btn-form-container">
                 <button class="modal__btn-form" type="submit">Wyślij</button>
-
               </div>
-
-
-
-
-
         </form>
+
         <button type="button" class="close-btn" data-modal-close>
           <svg class="close-btn__icon" width="30" height="30">
             <use
