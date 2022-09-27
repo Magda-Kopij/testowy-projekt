@@ -171,7 +171,21 @@ transition: var(--transition-hover);
   display: flex;
   align-items: center;
   margin-right: 7px;
+ border: 2px solid #212121;
+        border-radius: 3px;
+        transition: transform 0.5s;
+}
 
+label::before{
+  display: flex;
+  content: "";
+  width: 16px;
+  height: 15px;
+  border: 
+}
+input:checked +  label::before{
+  border: none;
+  background-image: url("./icons.svg#icon-check")
 }
 .close-btn{
   box-sizing: content-box;
