@@ -164,7 +164,7 @@ transition: var(--transition-hover);
   align-items: center;
   border-radius: 2px;
   margin-right: 7px;
-  border-color: red;
+  border-color: var(--dark-grey);
   transition-property: fill;
   transition: var(--transition-hover);
   cursor: pointer;
@@ -179,6 +179,11 @@ transition: var(--transition-hover);
   fill: var(--white);
   background-color: var(--blue);
   border-color: var(--blue);
+} 
+.checkbox__reg-policy + .modal__svg-check{
+  fill: var(--white);
+  background-color: var(--white);
+  border-color: var(--grey);
 } 
 .close-btn{
   box-sizing: content-box;
@@ -220,15 +225,17 @@ textarea:hover{
   border-color: var(--blue);
   transition: var(--transition-hover);
 }
-.modal__link-reg,
-.modal__link-policy{
+.modal__link-reg-pol{
   color: var(--blue);
   text-decoration: underline;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
 
 }
-.modal__link-reg:hover,
-.modal__link-policy:hover{
+.modal__link-reg-pol:hover{
   color: var(--dark-blue)
 }
 .modal__checkbox{
