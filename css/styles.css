@@ -319,7 +319,7 @@ figure {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-.section-header {
+.section--header {
   background: var(--white);
   border-bottom: 1px solid var(--almost-white);
   display: flex;
@@ -438,31 +438,31 @@ img {
   padding: 24px 0px 25px 0px;
   margin-right: 70px;
 }
-.logo-web {
-  color: var(--blue);
+
+.logo__link{
+  display: flex;
   background-color: none;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03;
+  align-items: center;
+
+}
+.logo--web {
+  color: var(--blue);
 }
 
-.logo > .logo-studio {
-  display: flex;
-  align-items: center;
-}
-.logo-studio {
+.logo--studio {
   color: var(--black);
-  background-color: none;
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.03;
+}
+
+.logo > .logo--studio {
   display: flex;
   align-items: center;
 }
+
 .logo-studio-footer {
   color: var(--white);
   background-color: none;
@@ -483,13 +483,13 @@ position: relative;
   padding: 32px 0 32px 0;
 }
 
-.navigation-text {
+.navigation__item{
   display: flex;
   align-items: center;
   
 }
 
-.navigation-link {
+.navigation__link {
   /* font-family: Roboto; */
   font-weight: 500;
   font-size: 14px;
@@ -499,8 +499,8 @@ position: relative;
   padding: 23px;
   position: relative;
 }
-.navigation-link:hover,
-.navigation-link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
   color: var(--blue);
   transition: var(--transition-hover);
 }
@@ -537,7 +537,7 @@ position: relative;
 
 }
 /*  kontakt header (mail, telefon)!*/
-.mail-header {
+.contact-header__mail{
   color: var(--light-grey);
   font-size: 14px;
   margin: 0;
@@ -545,45 +545,45 @@ position: relative;
   padding-bottom: 32px;
 }
 
-.telephone-header {
+.contact-header__tel {
   color: var(--light-grey);
   font-size: 14px;
   margin-right: auto;
   padding-top: 33px;
   padding-bottom: 31px;
 }
-.icon-mail {
+.contact-header__icon {
   margin-right: 10px;
 }
 
-.icon-telephone {
+.contact-header__icon {
   margin-right: 10px;
 }
 
-.contact__header {
+.contact-header {
   box-sizing: border-box;
   display: flex;
   align-items: center;      
 }
 /*  konktakt - telefon, mail - po najechaniu kursorem */
 
-.mail-header:hover .icon-mail,
-.mail-header:focus .icon-mail {
+.contact-header__mail:hover .contact-header__icon ,
+.contact-header__mail:focus .contact-header__icon {
   fill: var(--blue);
   transition: var(--transition-hover);
 }
-.telephone-header:hover .icon-telephone,
-.telephone-header:focus .icon-telephone {
+.contact-header__tel:hover .contact-header__icon ,
+.contact-header__tel:focus .contact-header__icon {
   fill: var(--blue);
   transition: var(--transition-hover);
 }
-.mail-header:hover,
-.mail-header:focus {
+.contact-header__mail:hover,
+.contact-header__mail:focus {
   color: var(--blue);
   transition: var(--transition-hover);
 }
-.telephone-header:hover,
-.telephone-header:focus {
+.contact-header__tel:hover,
+.contact-header__tel:focus {
   color: var(--blue);
   transition: var(--transition-hover);
 }
@@ -817,8 +817,8 @@ color:var(--almost-white);
 transition: var(--transition-hover);
 }
 
-.mail-header,
-.telephone-header {
+.contact-header__mail,
+.contact-header__tel {
   color: var(--light-grey);
   display: flex;
   align-items: center;
