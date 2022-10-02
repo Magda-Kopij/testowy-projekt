@@ -601,7 +601,7 @@ position: relative;
   justify-content: space-between;
   fill: var(--delicate-grey);
 }
-.section--lorem {
+.section-text {
   background: var(--white);
   display: flex;
   justify-content: center;
@@ -667,12 +667,12 @@ position: relative;
 .portoflio-fig {
   flex-basis: calc(100% / 3);
 }
-.lorem {
+.textmain__item {
   box-sizing: content-box;
   margin: 0 30px 0 0;
 }
 
-.container__textmain {
+.textmain {
   width: 1200px;
   margin: 0;
   display: flex;
@@ -681,7 +681,7 @@ position: relative;
   align-content: space-between;
 }
 
-.textmain2 {
+.textmain__list{
   background-color: var(--white);
   box-sizing: border-box;
   display: flex;
@@ -691,10 +691,10 @@ position: relative;
   max-width: 1200px;
   /* flex-wrap: wrap; */
 }
-.textmain2 > .lorem:not(:last-child) {
+.textmain > .textmain__item:not(:last-child) {
   margin-right: 0;
 }
-.lorem {
+.textmain__item {
   flex-basis: calc(100% / 4);
 }
 .container__what-we-do {
@@ -761,7 +761,7 @@ position: relative;
   max-width: 100%;
   margin: auto;
 }
-.icon-lorem {
+.textmain__icon {
   margin-bottom: 30px;
 }
 
@@ -829,7 +829,7 @@ transition: var(--transition-hover);
 
 /* INDEX.HTML t- dotyczy tekstu i naglowków na glownej stronie index.html*/
 
-.text-header {
+.textmain__title {
   display: flex;
   margin: 0 0 10px 0;
   width: 270px;
@@ -842,7 +842,7 @@ transition: var(--transition-hover);
   letter-spacing: 0.03em;
 }
 
-.text-text {
+.textmain__text {
   /* display: flex;
   flex-direction: row; */
   width: 270px;
