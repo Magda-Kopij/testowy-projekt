@@ -32,7 +32,7 @@
     --transition-hover: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   }
-.link-icon:hover .icon {
+.our-clients__link:hover .our-clients__icon {
   fill: var(--blue);
   border-color: var(--blue);
   transition: var(--transition-hover);
@@ -594,7 +594,7 @@ position: relative;
   list-style: none;
   display: block;
 }
-.icons__socialmedia {
+.our-team__socialmedia {
   display: flex;
   width: 220px;
   align-items: center;
@@ -614,20 +614,20 @@ position: relative;
 .portfolio-fig .address,
 .navigation,
 .button-por,
-.ourteam,
-.work {
+.our-team__list,
+.what-we-do__list {
   list-style: none;
 }
 
-.work-pic{
+.what-we-do__item{
   position: relative;
   z-index: 0;
 }
-.work-pic:hover{
+.what-we-do__item:hover{
   box-shadow: var(--shadow-filter);
   transition: var(--transition-hover);
 }
-.label{
+.what-we-do__sticker{
   background-color: var(--background-whatwedo);
   width: 370px;
   height: 70px;
@@ -648,7 +648,7 @@ position: relative;
   align-items: center;
   
 }
-.work {
+.what-we-do__list {
   display: flex;
   justify-items: flex-start;
   justify-content: space-between;
@@ -697,7 +697,7 @@ position: relative;
 .textmain__item {
   flex-basis: calc(100% / 4);
 }
-.container__what-we-do {
+.what-we-do {
   width: 1200px;
   display: flex;
   display: block;
@@ -853,7 +853,7 @@ transition: var(--transition-hover);
   letter-spacing: 0.03em;
 }
 /* index.html - czym sie zajmujemy */
-.header-work {
+.what-we-do__title{
   color: var(--black);
   font-weight: 700;
   font-size: 36px;
@@ -867,7 +867,8 @@ transition: var(--transition-hover);
   /* justify-content: space-between; */
   padding: 0 0 50px 0;
 }
-.header-team {
+.our-team__header,
+.our-clients__header {
   color: var(--black);
   font-weight: 700;
   font-size: 36px;
@@ -876,24 +877,24 @@ transition: var(--transition-hover);
   letter-spacing: 0.03em;
   padding-bottom: 50px;
 }
-.container--our-team {
+.our-team{
   width: 1200px;
   margin: 0;
   padding: 94px 0 94px 0;
 }
-.section--ourteam {
+.section-ourteam {
   background: var(--creamy);
   display: flex;
   justify-content: center;
 }
 
-.ourteam {
+.our-team__list {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
 
-.ourteam-person {
+.our-team__title {
   color: var(--black);
   font-weight: 500;
   font-size: 16px;
@@ -903,12 +904,12 @@ transition: var(--transition-hover);
   padding: 30px 0 10px 0;
   background: var(--white);
 }
-.ourteam > .ourteam-people {
+.our-team__list > .our-team__item {
   box-shadow: var(--shadow-ourteam);
   border-radius: 0px 0px 4px 4px;
   background: var(--white);
 }
-.ourteam-description {
+.our-team__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -918,7 +919,7 @@ transition: var(--transition-hover);
   padding: 0 0 16px 0;
 }
 
-.link-socialmedia {
+.our-team__socialmedia-link {
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -926,43 +927,43 @@ transition: var(--transition-hover);
 .icon-socialmedia {
   border-radius: 50%;
 }
-.link-icon {
+.our-clients__link {
   display: flex;
   align-items: center;
 }
-.link-socialmedia:hover .icon-socialmedia,
-.link-socialmedia:focus .icon-socialmedia {
+.our-team__socialmedia-link:hover .icon-socialmedia,
+.our-team__socialmedia-link:focus .icon-socialmedia {
   fill: var(--white);
   background: var(--blue);
   transition: var(--transition-hover);
 }
 
-.link-icon:hover .icon,
-.link-icon:focus .icon {
+.our-clients__link:hover .our-clients__icon,
+.our-clients__link:focus .our-clients__icon {
   fill: var(--blue);
  transition: var(--transition-hover);
 }
 
-.section--ourclients {
+.section-ourclients {
   background: var(--white);
   display: flex;
   justify-content: center;
 }
 
-.container--our-clients {
+.our-clients {
   width: 1200px;
   margin: 0;
-  padding: 94px 0 50px 0;
+  padding: 94px 0 94px 0;
   justify-content: center;
   align-items: center;
 }
-.container-icon-client {
+.our-clients__list {
   display: flex;
   align-items: center;
   list-style: none;
   justify-content: space-between;
 }
-.icon {
+.our-clients__icon {
   display: flex;
   cursor: pointer;
   align-items: center;
