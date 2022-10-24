@@ -616,7 +616,7 @@ position: relative;
   display: flex;
   justify-content: center;
 }
-.portfolio-fig .address,
+.gallery__list .address,
 .navigation,
 .menu-portfolio,
 .our-team__list,
@@ -662,7 +662,7 @@ position: relative;
   z-index: 0;
   overflow: hidden;
 }
-.portfolio-fig {
+.gallery__list {
   gap: 30px;
   width: 1200px;
   display: flex;
@@ -983,7 +983,7 @@ transition: var(--transition-hover);
 }
 
 /* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
-/*PORTOFLIO.HTML portfolio-figure - klasa do opisu zdjec+naglowkow w zakladce - portfolio */
+/*PORTOFLIO.HTML  */
 .header-por {
   color: var(--black);
   font-weight: 700;
@@ -1059,13 +1059,13 @@ transition: var(--transition-hover);
   display: flex;
 }
 
-.gallery-section {
+.section--gallery {
   background: var(--white);
   display: flex;
   justify-content: center;
 }
 
-.container-gallery {
+.gallery {
   width: 1200px;
   display: flex;
   justify-content: center;
@@ -1130,13 +1130,13 @@ transition: var(--transition-hover);
   padding-top: 70px;
   margin:0;
 }
- .card {
+ .gallery__item {
   cursor: pointer;
   position: relative;
 
 }
 
- .card:hover {
+ .gallery__item:hover {
   box-shadow: var(--shadow-filter);
   transition: var(--transition-hover);
 } 
