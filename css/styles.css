@@ -353,7 +353,7 @@ li {
   padding: 0;
 }
 
-.portfolio__image{
+.gallery__image{
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -362,7 +362,7 @@ li {
 .overlay__text{
   margin: 49px 45px 49px 24px;
 }
-.portfolio__image:hover .overlay{
+.gallery__image:hover .overlay{
   transform: translateY(0);
   transition: var(--transition-hover);
 }
@@ -984,7 +984,7 @@ transition: var(--transition-hover);
 
 /* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
 /*PORTOFLIO.HTML  */
-.header-por {
+.gallery__description--header {
   color: var(--black);
   font-weight: 700;
   font-family: Roboto;
@@ -1055,7 +1055,7 @@ transition: var(--transition-hover);
 }
 
 .description-por,
-.header-por {
+.gallery__description--header {
   display: flex;
 }
 
