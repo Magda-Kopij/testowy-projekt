@@ -984,7 +984,7 @@ transition: var(--transition-hover);
 
 /* PORTFOLIO.HTML**********************************************************************PORTFOLIO */
 /*PORTOFLIO.HTML  */
-.gallery__description--header {
+.gallery-description__header {
   color: var(--black);
   font-weight: 700;
   font-family: Roboto;
@@ -992,7 +992,7 @@ transition: var(--transition-hover);
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.description-por {
+.gallery-description__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -1054,8 +1054,8 @@ transition: var(--transition-hover);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.description-por,
-.gallery__description--header {
+.gallery-description__text,
+.gallery-description__header {
   display: flex;
 }
 
