@@ -618,7 +618,7 @@ position: relative;
 }
 .portfolio-fig .address,
 .navigation,
-.button-por,
+.menu-portfolio,
 .our-team__list,
 .what-we-do__list {
   list-style: none;
@@ -1005,7 +1005,7 @@ transition: var(--transition-hover);
   justify-content: center;
 }
 
-.container--button-por {
+.container--menu-portfolio {
   width: 1200px;
   margin: 0;
   padding-bottom: 50px;
@@ -1015,13 +1015,13 @@ transition: var(--transition-hover);
   justify-content: center;
 }
 
-.button-por {
+.menu-portfolio {
   display: flex;
   justify-content: center;
   gap: 8px;
 }
 
-.button--menu {
+.menu-portfolio__button {
   color: var(--black);
   background-color: var(--creamy);
   font-weight: 500;
@@ -1039,14 +1039,14 @@ transition: var(--transition-hover);
   border-radius: 4px;
 }
 
-.button--menu:hover {
+.menu-portfolio__button:hover {
   background-color: var(--blue);
   color: var(--white);
   cursor: pointer;
   box-shadow: var(--shadow-button);
   transition: var(--transition-hover);
 }
-.button--menu:focus {
+.menu-portfolio__button:focus {
   background-color: var(--blue);
   color: var(--white);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
