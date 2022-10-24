@@ -999,7 +999,7 @@ transition: var(--transition-hover);
   letter-spacing: 0.03em;
 }
 
-.section--button-por {
+.section--menu-portfolio {
   background: var(--white);
   display: flex;
   justify-content: center;
