@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -14,14 +13,12 @@ li {
 * svg {
   fill: var(--delicate-grey);
 }
-
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   background: var(--light);
   color: var(--light-grey);
   text-decoration: none;
 }
-
 a {
   text-decoration: none;
 }
@@ -32,4 +29,4 @@ a {
 .our-team__list,
 .what-we-do__list {
   list-style: none;
-}/*# sourceMappingURL=main.css.map */
+}
