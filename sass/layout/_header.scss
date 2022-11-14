@@ -1,0 +1,108 @@
+.nav__container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+  position: relative;
+}
+.nav__container--left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+position: relative;
+  height: 16px;
+  padding: 32px 0 32px 0;
+}
+
+.navigation__item{
+  display: flex;
+  align-items: center;
+  
+}
+
+.navigation__link {
+  /* font-family: Roboto; */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02;
+  color: var(--black);
+  padding: 23px;
+  position: relative;
+}
+.navigation__link:hover,
+.navigation__link:focus {
+  color: var(--blue);
+  transition: var(--transition-hover);
+}
+.contact-header__mail{
+  color: var(--light-grey);
+  font-size: 14px;
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contact-header__tel {
+  color: var(--light-grey);
+  font-size: 14px;
+  margin-right: auto;
+  padding-top: 33px;
+  padding-bottom: 31px;
+}
+.contact-header__icon {
+  margin-right: 10px;
+}
+
+.contact-header__icon {
+  margin-right: 10px;
+}
+
+.contact-header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;      
+}
+
+.contact-header__mail:hover .contact-header__icon ,
+.contact-header__mail:focus .contact-header__icon {
+  fill: var(--blue);
+  transition: var(--transition-hover);
+}
+.contact-header__tel:hover .contact-header__icon ,
+.contact-header__tel:focus .contact-header__icon {
+  fill: var(--blue);
+  transition: var(--transition-hover);
+}
+.contact-header__mail:hover,
+.contact-header__mail:focus {
+  color: var(--blue);
+  transition: var(--transition-hover);
+}
+.contact-header__tel:hover,
+.contact-header__tel:focus {
+  color: var(--blue);
+  transition: var(--transition-hover);
+}
+
+.address {
+  text-decoration: none;
+  background: var(--dark-grey);
+  list-style: none;
+  display: block;
+}
+.our-team__socialmedia {
+  display: flex;
+  width: 220px;
+  align-items: center;
+  justify-content: space-between;
+  fill: var(--delicate-grey);
+}
