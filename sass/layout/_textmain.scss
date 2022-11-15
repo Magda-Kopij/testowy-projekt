@@ -1,0 +1,34 @@
+.textmain {
+  width: 1200px;
+  margin: 0;
+  display: flex;
+  display: block;
+  padding: 94px 0 94px 0;
+  align-content: space-between;
+}
+.textmain__item {
+  box-sizing: content-box;
+  margin: 0 30px 0 0;
+}
+
+
+
+
+
+
+.textmain__list{
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 30px;
+  max-width: 1200px;
+  /* flex-wrap: wrap; */
+}
+.textmain > .textmain__item:not(:last-child) {
+  margin-right: 0;
+}
+.textmain__item {
+  flex-basis: calc(100% / 4);
+}

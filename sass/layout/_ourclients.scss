@@ -1,0 +1,55 @@
+.our-team__header,
+.our-clients__header {
+  color: var(--black);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+}
+
+
+.our-clients__link {
+  display: flex;
+  align-items: center;
+}
+.our-clients__link:hover .our-clients__icon,
+.our-clients__link:focus .our-clients__icon {
+  fill: var(--blue);
+ transition: var(--transition-hover);
+}
+
+.section-ourclients {
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+}
+
+.our-clients {
+  width: 1200px;
+  margin: 0;
+  padding: 94px 0 94px 0;
+  justify-content: center;
+  align-items: center;
+}
+.our-clients__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+}
+.our-clients__icon {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding: auto;
+  background-position: 50%;
+  border: 1px solid var(--delicate-grey);
+  border-radius: 4px;
+}
+.icon:hover,
+.icon:focus {
+  fill: var(--blue);
+  transition: var(--transition-hover);
+}

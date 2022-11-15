@@ -1,0 +1,25 @@
+.footer-logo__logo{
+  padding: 60px 0 20px 0;
+  width: 145px;
+  margin: 0;
+  justify-content: flex-start;
+  display: flex;
+}
+.logo__link{
+  display: flex;
+  background-color: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03;
+  align-items: center;
+
+}
+
+.footer--web{
+  color: var(--blue);
+}
+.footer--studio{
+  color: var(--white);
+}

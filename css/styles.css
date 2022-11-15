@@ -468,15 +468,7 @@ img {
 .footer--studio{
   color: var(--white);
 }
-/* .footer-logo__studio {
-  color: var(--white);
-  background-color: none;
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.03;
-  /* display: flex; */
+
 
 .navigation {
   box-sizing: border-box;
