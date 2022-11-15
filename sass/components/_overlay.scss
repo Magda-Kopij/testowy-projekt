@@ -1,0 +1,26 @@
+.overlay__text{
+  margin: 49px 45px 49px 24px;
+}
+.gallery__image:hover .overlay{
+  transform: translateY(0);
+  transition: var(--transition-hover);
+}
+
+.overlay{
+  position: absolute;
+  transition-property: background-color, transform, duration;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  transform: translateY(100%);
+  transition-duration: 250ms;
+  background: var(--background-overlay);
+
+}
