@@ -925,6 +925,37 @@ textarea:hover {
   color: var(--dark-blue);
 }
 
+.close-btn {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  display: inline-block;
+  position: absolute;
+  color: var(--black);
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 30px;
+  width: 30px;
+}
+
+.close-btn__icon {
+  border-radius: 50%;
+  position: relative;
+}
+
+.close-btn:hover .close-btn__icon,
+.close-btn:focus .close-btn__icon {
+  background-color: var(--grey-grey);
+  fill: var(--white);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .overlay__text {
   margin: 49px 45px 49px 24px;
 }
