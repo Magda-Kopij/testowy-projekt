@@ -55,3 +55,23 @@
   transform: translateY(0);
   transition: var(--transition-hover);
 }
+
+.gallery-description__text,
+.gallery-description__header {
+  display: flex;
+}
+
+.gallery-description__header {
+  color: var(--black);
+  font-weight: 700;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery-description__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}

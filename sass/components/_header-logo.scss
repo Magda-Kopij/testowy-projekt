@@ -1,0 +1,41 @@
+/* LOGO */
+.logo {
+  font-weight: 700;
+  background-color: none;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 145px;
+  height: 31px;
+
+  padding: 24px 0px 25px 0px;
+  margin-right: 70px;
+}
+
+.logo__link{
+  display: flex;
+  background-color: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03;
+  align-items: center;
+
+}
+.logo--web {
+  color: var(--blue);
+}
+
+.logo--studio {
+  color: var(--black);
+}
+
+.logo > .logo--studio {
+  display: flex;
+  align-items: center;
+}

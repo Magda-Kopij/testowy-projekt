@@ -23,3 +23,36 @@
 .footer--studio{
   color: var(--white);
 }
+
+.address__link {
+  color: var(--beige);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03;
+}
+
+.street {
+  color: var(--white);
+  line-height: 1.71;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  display: block;
+  padding-bottom: 9px;
+  width: 246px;
+}
+
+.address__item:last-child {
+  padding: 9px 0 94px 0;
+  width: 231px;
+}
+
+.address__item:nth-child(2) {
+  width: 231px;
+}
+
+.address__link:hover,
+.address__link:focus {
+  color: var(--blue);
+  transition: var(--transition-hover);
+}
+

@@ -1,0 +1,15 @@
+
+.nav__container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+  position: relative;
+}
+.nav__container--left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

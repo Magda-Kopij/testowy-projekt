@@ -553,10 +553,6 @@ position: relative;
   margin-right: 10px;
 }
 
-.contact-header__icon {
-  margin-right: 10px;
-}
-
 .contact-header {
   box-sizing: border-box;
   display: flex;

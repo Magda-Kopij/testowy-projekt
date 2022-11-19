@@ -1,0 +1,15 @@
+.agencja{
+  color: var(--blue);
+}
+.agencja::after{
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 53px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--blue);
+  bottom: -10px;
+  left: 23px;
+
+}

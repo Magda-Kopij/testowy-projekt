@@ -1,0 +1,133 @@
+
+.modal{
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 528px;
+  height: 581px;
+  background-color: var(--white);
+  border-radius: 4px;
+  box-shadow: var(--shadow-window);
+  position: absolute;
+  visibility: visible;
+  opacity: 1;
+  
+
+  /* display: block;
+ transform: rotate(240deg); */
+
+  /* z-index: 10; */
+   /* animation-name: modal__animation;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: none;   */
+
+}
+
+.modal__form{
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  max-width: 448px;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+
+.modal__form-title{
+  width: 448px;
+  height: 23px;
+  color: var(--delicate-black);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom:  30px; 
+}
+.modal__label{
+  width:24px;
+  height: 14px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: var(--light-grey);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.modal__cell{
+  width: 448px;
+  height: 40px;
+  margin: 0;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 42px;
+  display: flex;
+  flex-direction: column;
+}
+.modal__text-icon{
+  position: relative;
+}
+.modal__svg{  
+  fill: var(--delicate-black);
+  position: absolute;
+  top: 14px;
+  left: 15px;
+}
+
+.modal__cell:focus-within + svg{
+  fill: var(--blue);
+  border-color: var(--blue);
+  border:  none;
+}
+
+.modal__cell:focus-visible{
+  border-color: var(--blue);
+  
+}
+.modal__text-icon:hover .modal__svg,
+.modal__text-icon:focus .modal__svg{
+  fill: var(--blue);
+  transition: var(--transition-hover);
+
+}
+.modal__text-icon:hover .modal__cell,
+.modal__text-icon:focus .modal__cell{
+ border-color: var(--blue);
+transition: var(--transition-hover);
+}
+.modal__svg-check{
+  fill: var(--white);
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  margin-right: 7px;
+  transition-property: fill;
+  transition: var(--transition-hover);
+  cursor: pointer;
+  border: 1px solid var(--delicate-black);
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

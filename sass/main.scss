@@ -1,17 +1,22 @@
 @import "./base/common";
-@import "./base/section";
 @import "./base/container";
+@import "./base/section";
 
+@import "./components/animation";
 @import "./components/backdrop";
 @import "./components/footer-join";
 @import "./components/footer-logo";
 @import "./components/footer-news";
+@import "./components/header-contact";
 @import "./components/header-logo";
 @import "./components/hidden.scss";
 @import "./components/modal-btn";
 @import "./components/modal";
 @import "./components/overlay";
 
+
+
+@import "./layout/efective";
 @import "./layout/header";
 @import "./layout/footer";
 @import "./layout/ourclients";
@@ -20,6 +25,11 @@
 @import "./layout/portfolio-menu";
 @import "./layout/textmain";
 @import "./layout/whatwedo";
+
+@import "./pages/index";
+@import "./pages/portfolio";
+
+@import "./utils/variables";
 
 
 
