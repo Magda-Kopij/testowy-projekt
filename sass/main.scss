@@ -1,12 +1,26 @@
 @import "./base/common";
 @import "./base/section";
+@import "./base/container";
 
-@import "./components/header-logo";
+@import "./components/backdrop";
+@import "./components/footer-join";
 @import "./components/footer-logo";
+@import "./components/footer-news";
+@import "./components/header-logo";
+@import "./components/hidden.scss";
 @import "./components/modal-btn";
 @import "./components/modal";
+@import "./components/overlay";
 
 @import "./layout/header";
+@import "./layout/footer";
+@import "./layout/ourclients";
+@import "./layout/ourteam";
+@import "./layout/portfolio-gallery";
+@import "./layout/portfolio-menu";
+@import "./layout/textmain";
+@import "./layout/whatwedo";
+
 
 
 
