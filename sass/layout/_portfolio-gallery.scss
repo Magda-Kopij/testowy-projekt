@@ -12,33 +12,29 @@
   padding-bottom: 94px;
   position: relative;
 
+    &__list {
+    gap: 30px;
+    width: 1200px;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+
+        
+      }
+
+    &__item {
+      cursor: pointer;
+      position: relative;
+      
+          &:hover {
+          box-shadow: var(--shadow-filter);
+          transition: var(--transition-hover);
+        } 
+    }
 }
 
-.gallery__list {
-  gap: 30px;
-  width: 1200px;
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
-}
-.gallery__list .address,
-.navigation,
-.menu-portfolio,
-.our-team__list,
-.what-we-do__list {
-  list-style: none;
-}
 
- .gallery__item {
-  cursor: pointer;
-  position: relative;
 
-}
-
- .gallery__item:hover {
-  box-shadow: var(--shadow-filter);
-  transition: var(--transition-hover);
-} 
 
 
 .gallery__image{
@@ -46,32 +42,33 @@
   overflow: hidden;
   width: 100%;
   height: 100%;
+
+    &:hover .overlay{
+    transform: translateY(0);
+    transition: var(--transition-hover);
+  }
 }
 
 .overlay__text{
   margin: 49px 45px 49px 24px;
 }
-.gallery__image:hover .overlay{
-  transform: translateY(0);
-  transition: var(--transition-hover);
-}
 
-.gallery-description__text,
-.gallery-description__header {
-  display: flex;
-}
 
-.gallery-description__header {
-  color: var(--black);
-  font-weight: 700;
-  font-family: Roboto;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-.gallery-description__text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
+.gallery-description{
+    &__header {
+      color: var(--black);
+      font-weight: 700;
+      font-family: Roboto;
+      font-size: 18px;
+      line-height: 2;
+      letter-spacing: 0.06em;
+      display: flex;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.03em;
+      display: flex;
+    }
 }

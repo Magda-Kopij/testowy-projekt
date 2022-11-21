@@ -156,11 +156,13 @@ textarea{
   /* color: rgba(117, 117, 117, 0.5); */
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+  &:hover{
+    border-color: var(--blue);
+    transition: var(--transition-hover);
+  }
 }
-textarea:hover{
-  border-color: var(--blue);
-  transition: var(--transition-hover);
-}
+
 
 .modal__link-reg-pol{
   color: var(--blue);
@@ -171,10 +173,12 @@ textarea:hover{
   align-items: center;
   padding: 2px;
 
+    &:hover{
+    color: var(--dark-blue)
+  }
+
 }
-.modal__link-reg-pol:hover{
-  color: var(--dark-blue)
-}
+
 
 
 .close-btn{
@@ -193,18 +197,20 @@ textarea:hover{
   height: 30px;
   width: 30px;
 
+  &:hover .close-btn__icon,
+  &:focus .close-btn__icon{
+    background-color: var(--grey-grey);
+    fill: var(--white);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+
 }
 .close-btn__icon{
   border-radius: 50%;
   position: relative;  
 }
-.close-btn:hover .close-btn__icon,
-.close-btn:focus .close-btn__icon{
-  background-color: var(--grey-grey);
-  fill: var(--white);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-}
+
 
 
 

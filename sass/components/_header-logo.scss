@@ -14,26 +14,33 @@
 
   padding: 24px 0px 25px 0px;
   margin-right: 70px;
+
+
+    &__link{
+    display: flex;
+    background-color: none;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03;
+    align-items: center;
+
+  }
 }
 
-.logo__link{
-  display: flex;
-  background-color: none;
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.03;
-  align-items: center;
 
-}
-.logo--web {
+.logo{
+&--web {
   color: var(--blue);
 }
 
-.logo--studio {
+ &--studio {
   color: var(--black);
 }
+}
+
+
 
 .logo > .logo--studio {
   display: flex;

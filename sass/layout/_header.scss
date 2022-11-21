@@ -17,16 +17,18 @@
   display: flex;
   align-items: center;
   /* justify-content: space-between; */
-position: relative;
+  position: relative;
   height: 16px;
   padding: 32px 0 32px 0;
+
+    &__item{
+    display: flex;
+    align-items: center;
+    
+  }
 }
 
-.navigation__item{
-  display: flex;
-  align-items: center;
-  
-}
+
 
 .navigation__link {
   /* font-family: Roboto; */
@@ -37,18 +39,26 @@ position: relative;
   color: var(--black);
   padding: 23px;
   position: relative;
+
+    &:hover,
+    &:focus {
+    color: var(--blue);
+    transition: var(--transition-hover);
+  }
 }
-.navigation__link:hover,
-.navigation__link:focus {
-  color: var(--blue);
-  transition: var(--transition-hover);
-}
+
 .contact-header__mail{
   color: var(--light-grey);
   font-size: 14px;
   margin: 0;
   padding-top: 32px;
   padding-bottom: 32px;
+
+    &:hover .contact-header__icon ,
+    &:focus .contact-header__icon {
+      fill: var(--blue);
+      transition: var(--transition-hover);
+    }
 }
 
 .contact-header__tel {
@@ -57,43 +67,40 @@ position: relative;
   margin-right: auto;
   padding-top: 33px;
   padding-bottom: 31px;
+
+  &:hover .contact-header__icon ,
+  &:focus .contact-header__icon {
+    fill: var(--blue);
+    transition: var(--transition-hover);
+  }
 }
 
 
-.contact-header__icon {
-  margin-right: 10px;
-}
+
 
 .contact-header {
   box-sizing: border-box;
   display: flex;
-  align-items: center;      
+  align-items: center; 
+  
+    &__icon {
+    margin-right: 10px;
+  }
+
+
+    &__mail:hover,
+    &__mail:focus {
+    color: var(--blue);
+    transition: var(--transition-hover);
 }
 
-.contact-header__mail:hover .contact-header__icon ,
-.contact-header__mail:focus .contact-header__icon {
-  fill: var(--blue);
-  transition: var(--transition-hover);
-}
-.contact-header__tel:hover .contact-header__icon ,
-.contact-header__tel:focus .contact-header__icon {
-  fill: var(--blue);
-  transition: var(--transition-hover);
-}
-.contact-header__mail:hover,
-.contact-header__mail:focus {
-  color: var(--blue);
-  transition: var(--transition-hover);
-}
-.contact-header__tel:hover,
-.contact-header__tel:focus {
-  color: var(--blue);
-  transition: var(--transition-hover);
+    &__tel:hover,
+    &__tel:focus {
+      color: var(--blue);
+      transition: var(--transition-hover);
+    }
+
+
 }
 
-.address {
-  text-decoration: none;
-  background: var(--dark-grey);
-  list-style: none;
-  display: block;
-}
+

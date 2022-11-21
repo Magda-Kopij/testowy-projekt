@@ -1,9 +1,22 @@
+.contact-header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;      
+}
+
+
 .contact-header__mail{
   color: var(--light-grey);
   font-size: 14px;
   margin: 0;
   padding-top: 32px;
   padding-bottom: 32px;
+
+    &:hover .contact-header__icon ,
+    &:focus .contact-header__icon {
+  fill: var(--blue);
+  transition: var(--transition-hover);
+}
 }
 
 .contact-header__tel {
@@ -12,28 +25,21 @@
   margin-right: auto;
   padding-top: 33px;
   padding-bottom: 31px;
+
+    &:hover .contact-header__icon ,
+    &:focus .contact-header__icon {
+    fill: var(--blue);
+    transition: var(--transition-hover);
+  }
 }
 .contact-header__icon {
   margin-right: 10px;
 }
 
-.contact-header {
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;      
-}
-/*  konktakt - telefon, mail - po najechaniu kursorem */
 
-.contact-header__mail:hover .contact-header__icon ,
-.contact-header__mail:focus .contact-header__icon {
-  fill: var(--blue);
-  transition: var(--transition-hover);
-}
-.contact-header__tel:hover .contact-header__icon ,
-.contact-header__tel:focus .contact-header__icon {
-  fill: var(--blue);
-  transition: var(--transition-hover);
-}
+
+
+
 .contact-header__mail:hover,
 .contact-header__mail:focus {
   color: var(--blue);

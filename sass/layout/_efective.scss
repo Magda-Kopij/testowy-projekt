@@ -15,7 +15,7 @@
   padding: 200px 0;
 }
 
-efective-background {
+.efective-background {
   background: var(--dark-grey);
   display: flex;
   justify-content: center;
@@ -51,13 +51,15 @@ efective-background {
   text-overflow: ellipsis;
   border: 0px;
   margin: 0;
+
+  &:hover,      
+  &:focus {
+  background-color: var(--dark-blue);
+  color:var(--almost-white);
+  transition: var(--transition-hover);
+  }
 }
-.button-order:hover,      
-.button-order:focus {
-background-color: var(--dark-blue);
-color:var(--almost-white);
-transition: var(--transition-hover);
-}
+
 
 
 .solution-header {

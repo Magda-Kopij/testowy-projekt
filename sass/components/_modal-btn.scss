@@ -21,13 +21,12 @@
   cursor: pointer;
   padding: 10px 76px 10px 76px;
   margin: 0;
-  
- 
-}
-.modal__btn-form:hover{
-  transition: var(--transition-hover);
-  background-color: var(--dark-blue);
 
+  &:hover{
+    transition: var(--transition-hover);
+    background-color: var(--dark-blue);
+
+  }
 }
 
 
