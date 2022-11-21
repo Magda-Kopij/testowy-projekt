@@ -3,14 +3,19 @@
   display: flex;
   align-items: center;      
 }
-
+.contact-header__icon {
+  margin-right: 10px;
+}
 
 .contact-header__mail{
   color: var(--light-grey);
+  display: flex;
+  align-items: center;
+  height: 16px;
+  padding: 15px;
   font-size: 14px;
   margin: 0;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 
     &:hover .contact-header__icon ,
     &:focus .contact-header__icon {
@@ -21,10 +26,12 @@
 
 .contact-header__tel {
   color: var(--light-grey);
+  display: flex;
+  align-items: center;
+  height: 16px;
+  padding: 15px;
   font-size: 14px;
-  margin-right: auto;
-  padding-top: 33px;
-  padding-bottom: 31px;
+  margin: auto;
 
     &:hover .contact-header__icon ,
     &:focus .contact-header__icon {
@@ -32,9 +39,7 @@
     transition: var(--transition-hover);
   }
 }
-.contact-header__icon {
-  margin-right: 10px;
-}
+
 
 
 
