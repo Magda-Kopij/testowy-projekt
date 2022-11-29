@@ -1,19 +1,32 @@
+
+.close-btn__icon{
+  fill: var(--black);
+  display: inline-block;
+
+}
+
+
+
+
+
+
+
 .menu-close-btn{
 
   box-sizing: content-box;
   display: inline-block;
   position: absolute;
   color: var(--black);
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+  top: 21px;
+  right: 25px;
+  // width: 30px;
+  // height: 30px;
+ 
   cursor: pointer;
   background-color: var(--white);
   border:  1px solid rgba(0, 0, 0, 0.1);
-  height: 30px;
-  width: 30px;
+  // height: 30px;
+  // width: 30px;
 
   &:hover .close-btn__icon,
   &:focus .close-btn__icon{

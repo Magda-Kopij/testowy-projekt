@@ -658,6 +658,30 @@ figure {
   transition: opacity 250ms linear, visibility 500ms linear, transform 250ms linear, -webkit-transform 250ms linear;
 }
 
+.close-btn__icon {
+  fill: var(--black);
+  display: inline-block;
+}
+
+.menu-close-btn {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  display: inline-block;
+  position: absolute;
+  color: var(--black);
+  top: 21px;
+  right: 25px;
+  cursor: pointer;
+  background-color: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.menu-close-btn:hover .close-btn__icon, .menu-close-btn:focus .close-btn__icon {
+  background-color: var(--grey-grey);
+  fill: var(--white);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .menu-hidden {
   display: none;
 }
