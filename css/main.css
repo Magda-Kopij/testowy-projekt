@@ -71,6 +71,36 @@ figure {
   border-radius: 50%;
 }
 
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: var(--mobile)) {
+  body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    background: var(--light);
+    color: var(--light-grey);
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: var(--tablet)) {
+  body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    background: var(--light);
+    color: var(--light-grey);
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: var(--desktop)) {
+  body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    background: var(--light);
+    color: var(--light-grey);
+    text-decoration: none;
+  }
+}
 .nav__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -200,6 +230,28 @@ figure {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.frame {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: var(--mobile)) {
+  .frame {
+    width: var(--mobile);
+  }
+}
+@media screen and (min-width: var(--tablet)) {
+  .frame {
+    width: var(--tablet);
+  }
+}
+@media screen and (min-width: var(--desktop)) {
+  .frame {
+    width: var(--desktop);
+  }
 }
 
 @-webkit-keyframes modal__animation {
@@ -1037,8 +1089,6 @@ textarea:hover {
 }
 
 .slider {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1600px;
@@ -1057,6 +1107,26 @@ textarea:hover {
       -ms-flex-align: center;
           align-items: center;
   padding: 200px 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background-efe-480@x1.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-efe-480@x1.jpg");
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .slider {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background-efe-480@x2.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-efe-480@x2.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .slider {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background-efe-768@x1.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-efe-768@x1.jpg");
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .slider {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background-efe-768@x2.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-efe-768@x2.jpg");
+  }
 }
 
 .efective-background {
@@ -1978,6 +2048,7 @@ textarea:hover {
   --grey-grey: rgb(88, 88, 88);
   --shadow-window: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   --transition-hover: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --min-size: 320px;
   --mobile: 480px;
   --tablet: 768px;
   --desktop: 1200px;
@@ -2014,6 +2085,7 @@ textarea:hover {
   --grey-grey: rgb(88, 88, 88);
   --shadow-window: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   --transition-hover: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --min-size: 320px;
   --mobile: 480px;
   --tablet: 768px;
   --desktop: 1200px;
