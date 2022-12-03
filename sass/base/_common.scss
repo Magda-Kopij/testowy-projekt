@@ -61,6 +61,38 @@ figure {
   border-radius: 50%;
 }
 
+img{
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+@media screen and (min-width: var(--mobile)){
+body{
+    font-family: "Roboto", "Raleway", sans-serif;
+  background: var(--light);
+  color: var(--light-grey);
+  text-decoration: none;
+
+}
+}
+
+@media screen and (min-width: var(--tablet)){
+body{
+    font-family: "Roboto", "Raleway", sans-serif;
+  background: var(--light);
+  color: var(--light-grey);
+  text-decoration: none;
 
 
+}
+}
+@media screen and (min-width: var(--desktop)){
+body{
+  font-family: "Roboto", "Raleway", sans-serif;
+  background: var(--light);
+  color: var(--light-grey);
+  text-decoration: none;
 
+
+}
+}
