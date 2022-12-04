@@ -1088,6 +1088,10 @@ textarea:hover {
   background: var(--background-overlay);
 }
 
+.what-we-do-hidden {
+  display: none;
+}
+
 .slider {
   background-repeat: no-repeat;
   background-size: cover;
@@ -1849,7 +1853,7 @@ textarea:hover {
 }
 
 .what-we-do {
-  width: 1200px;
+  max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1922,6 +1926,11 @@ textarea:hover {
           align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .what-we-do-hidden {
+    display: none;
+  }
+}
 .agencja {
   color: var(--blue);
 }
