@@ -28,9 +28,11 @@
 
       &__list {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       list-style: none;
-      justify-content: space-between;
+      gap: 10px;
+      justify-content: center;
     }
       &__icon {
       display: flex;
@@ -59,4 +61,9 @@
 .icon:focus {
   fill: var(--blue);
   transition: var(--transition-hover);
+}
+
+
+@media screen (min-width: 480px){
+  
 }
