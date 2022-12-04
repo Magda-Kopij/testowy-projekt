@@ -1507,8 +1507,19 @@ textarea:hover {
           align-items: center;
   width: 210px;
   height: 94px;
+  padding: 40px;
 }
 
+@media screen and (min-width: 480px) {
+  .our-clients__icon {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-clients__icon {
+    width: 170px;
+  }
+}
 .our-clients__svg {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1521,14 +1532,27 @@ textarea:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 106px;
-  height: 60px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 20px;
+}
+
+.our-clients__svg, .our-clients__icon {
+  fill: var(--delicate-grey);
+}
+.our-clients__svg:hover, .our-clients__icon:hover, .our-clients__svg:focus, .our-clients__icon:focus {
+  fill: var(--blue);
+  border-color: var(--blue);
+  -webkit-transition-duration: var(--transition-hover);
+          transition-duration: var(--transition-hover);
+}
+
+.our-clients__link:hover .our-clients__svg {
+  fill: var(--blue);
 }
 
 .section-ourteam {
