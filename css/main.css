@@ -30,7 +30,8 @@ a {
 .navigation,
 .menu-portfolio,
 .our-team__list,
-.what-we-do__list {
+.what-we-do__list,
+.our-clients__list {
   list-style: none;
 }
 
@@ -1439,84 +1440,95 @@ textarea:hover {
   display: block;
 }
 
-.our-clients__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.our-clients__link:hover .our-clients__icon, .our-clients__link:focus .our-clients__icon {
-  fill: var(--blue);
-  -webkit-transition: var(--transition-hover);
-  transition: var(--transition-hover);
-}
-
 .section-ourclients {
-  background: var(--white);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: var(--white);
 }
 
 .our-clients {
-  width: 1200px;
-  margin: 0;
-  padding: 94px 0 94px 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.our-clients__list {
+  max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  list-style: none;
-  gap: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-top: 60px;
 }
-.our-clients__icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  cursor: pointer;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: auto;
-  background-position: 50%;
-  border: 1px solid var(--delicate-grey);
-  border-radius: 4px;
-}
-.our-clients .our-team__header, .our-clients__header {
+
+.our-clients__header {
   color: var(--black);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 33px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.icon:hover,
-.icon:focus {
-  fill: var(--blue);
-  -webkit-transition: var(--transition-hover);
-  transition: var(--transition-hover);
+.our-clients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+
+.our-clients__icon {
+  border-radius: 4px;
+  border: 1px solid var(--delicate-grey);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 210px;
+  height: 94px;
+}
+
+.our-clients__svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 106px;
+  height: 60px;
+}
+
+.our-clients__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 106px;
+  height: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .section-ourteam {
