@@ -92,4 +92,6 @@
 
 .our-clients__link:hover .our-clients__svg{
   fill: var(--blue);
+  border-color: var(--blue);
+    transition-duration: var(--transition-hover);
 }
