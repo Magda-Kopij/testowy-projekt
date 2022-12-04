@@ -1821,6 +1821,11 @@ textarea:hover {
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
+@media screen and (min-width: 768px) {
+  .textmain__title {
+    text-align: left;
+  }
+}
 
 .textmain__icon {
   margin-bottom: 30px;
