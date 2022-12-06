@@ -1,9 +1,24 @@
-.footer-logo__logo{
-  padding: 60px 0 20px 0;
-  width: 145px;
-  margin: 0;
-  justify-content: flex-start;
+.footer-container{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 60px; 
+}
+
+.footer-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  
+  &__logo{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
 }
 
 .footer{
@@ -15,50 +30,13 @@
   }
 }
 
-.logo__link{
-  display: flex;
-  background-color: none;
-  font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.03;
-  align-items: center;
-
-}
-
-
-.address__link {
-  color: var(--beige);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03;
-
-    &:hover,
-    &:focus {
-    color: var(--blue);
-    transition: var(--transition-hover);
-  }
-
-}
-
-
-
-.address {
+.address{
   text-decoration: none;
-  background: var(--dark-grey);
   list-style: none;
-  display: block;
-
-    &__item:last-child {
-      padding: 9px 0 94px 0;
-      width: 231px;
-    }
-
-    &__item:nth-child(2) {
-      width: 231px;
-    }
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -67,9 +45,25 @@
   line-height: 1.71;
   font-size: 14px;
   letter-spacing: 0.03em;
-  display: block;
+  display: flex;
   padding-bottom: 9px;
-  width: 246px;
+ 
 }
 
+.address__link {
+  color: var(--beige);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+
+    &:hover,
+    &:focus {
+    color: var(--blue);
+    transition: var(--transition-hover);
+  }
+
+}
