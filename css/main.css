@@ -233,28 +233,6 @@ img {
           justify-content: center;
 }
 
-.frame {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media screen and (min-width: var(--mobile)) {
-  .frame {
-    width: var(--mobile);
-  }
-}
-@media screen and (min-width: var(--tablet)) {
-  .frame {
-    width: var(--tablet);
-  }
-}
-@media screen and (min-width: var(--desktop)) {
-  .frame {
-    width: var(--desktop);
-  }
-}
-
 @-webkit-keyframes modal__animation {
   0% {
     scale: 0;
@@ -1489,7 +1467,7 @@ textarea:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 30px;
+  gap: 15px;
   margin-bottom: 94px;
 }
 
@@ -1507,15 +1485,21 @@ textarea:hover {
           align-items: center;
   width: 210px;
   height: 94px;
-  padding: 40px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
+  .our-clients__icon {
+    width: 210px;
+  }
+}
+@media screen and (min-width: 768px) {
   .our-clients__icon {
     width: 226px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .our-clients__icon {
     width: 170px;
   }
