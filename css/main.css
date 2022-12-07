@@ -231,7 +231,6 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0;
 }
 
 @-webkit-keyframes modal__animation {
@@ -515,9 +514,6 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
     max-width: 1200px;
   }
   .footer-logo,
@@ -529,7 +525,16 @@ img {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .footer-container {
+  .footer-logo {
+    margin-right: 70px;
+  }
+  .footer-join {
+    margin-right: 78px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .footer-newsletter {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -537,11 +542,6 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: 0;
-    max-width: 1200px;
-  }
-  .footer-logo {
-    margin-right: 0;
   }
   .footer-newsletter__label {
     display: -webkit-box;
@@ -551,10 +551,15 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .footer-newsletter__email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     width: 358px;
-    height: 50px;
     margin-right: 12px;
   }
   .footer-newsletter__btn {
