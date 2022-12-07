@@ -4,8 +4,8 @@
     .footer-container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+ justify-content: flex-start;
+    width: 100vw;
    
   
 
@@ -14,6 +14,7 @@
     // margin-right: 165px;
     display: flex;
     margin-bottom: 60px;
+    
   }
   .footer-join{
     margin-bottom: 60px;
@@ -32,6 +33,7 @@
     flex-direction: row;
     // justify-content: space-between;
     max-width: 1200px;
+    width: 100vw;
     }
 
     .footer-logo,
@@ -44,11 +46,14 @@
     .footer-logo{
        margin-right: 70px;
     }
-
-
     .footer-join{
         margin-right: 78px;
         align-items: flex-start;
+        margin-top: 0;
+      }
+
+      .footer-join__header{
+        padding-top: 70px;
       }
     .footer-newsletter{
         display: flex;
