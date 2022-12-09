@@ -961,14 +961,16 @@ img {
   display: flex;
   /* justify-content: center; */
   /* align-items: center; */
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   background-color: var(--white);
   border-radius: 4px;
   -webkit-box-shadow: var(--shadow-window);
           box-shadow: var(--shadow-window);
   position: absolute;
   visibility: visible;
+  position: fixed;
+  top: 93px;
   opacity: 1;
 }
 
@@ -989,14 +991,22 @@ img {
 }
 
 .modal__form-title {
-  width: 448px;
-  height: 23px;
+  width: 370px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   color: var(--delicate-black);
   font-size: 20px;
   font-weight: 700;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 
 .modal__label {
@@ -1018,7 +1028,7 @@ img {
 }
 
 .modal__cell {
-  width: 448px;
+  width: 370px;
   height: 40px;
   margin: 0;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1106,7 +1116,7 @@ img {
 
 .modal__checkbox {
   color: var(--light-grey);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -1140,7 +1150,7 @@ img {
 }
 
 textarea {
-  width: 448px;
+  width: 370px;
   height: 120px;
   resize: none;
   padding: 10px 14px 10px 14px;
@@ -1208,6 +1218,33 @@ textarea:hover {
   position: relative;
 }
 
+@media screen and (min-width: 768px) {
+  .modal {
+    top: 208px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    top: 221px;
+    width: 528px;
+    height: 582px;
+  }
+  textarea {
+    width: 448px;
+    height: 120px;
+  }
+  .modal__form-title {
+    width: 448px;
+    height: 23px;
+  }
+  .modal__cell {
+    width: 448px;
+    height: 40px;
+  }
+  .modal__checkbox {
+    font-size: 14px;
+  }
+}
 .overlay__text {
   margin: 49px 45px 49px 24px;
 }
