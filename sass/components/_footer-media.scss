@@ -7,7 +7,7 @@
     .footer-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100vw;
    
@@ -18,15 +18,27 @@
     // margin-right: 165px;
     display: flex;
     margin-bottom: 60px;
+    margin: auto;
     
   }
   .footer-join{
     margin-bottom: 60px;
     margin-top: 40px;
     display: flex;
-    // margin-right: 76px;
-    // text-align: center;
+    
+    margin: auto;
+    margin-top: 0;
+
+      &__header{
+        margin-top: 65px;
+      }
   }
+.footer-newsletter{
+        display: flex;
+        margin: auto;
+        margin-top: 60px;
+       }
+
 }
 
 @media screen and (min-width: 1200px){
