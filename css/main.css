@@ -1983,9 +1983,10 @@ textarea:hover {
           justify-content: flex-end;
   justify-items: flex-end;
 }
-
-.menu-btn__icon:hover {
+.menu-btn__icon:hover, .menu-btn__icon:focus {
   fill: var(--blue);
+  -webkit-transition: var(--transition-hover);
+  transition: var(--transition-hover);
 }
 
 .mobile-menu__link {
@@ -2005,6 +2006,11 @@ textarea:hover {
   line-height: 47px;
   letter-spacing: 0.02em;
   padding-bottom: 32px;
+}
+.mobile-menu__link:hover, .mobile-menu__link:focus {
+  color: var(--blue);
+  -webkit-transition: var(--transition-hover);
+  transition: var(--transition-hover);
 }
 
 @media (max-width: 767px) {
@@ -2111,6 +2117,12 @@ textarea:hover {
           justify-content: flex-start;
   margin-bottom: 32px;
 }
+.mobile-menu-contact__telephone:hover, .mobile-menu-contact__telephone:focus {
+  text-decoration: underline;
+  -webkit-transition: var(--transition-hover);
+  transition: var(--transition-hover);
+  color: var(--dark-blue);
+}
 
 .mobile-menu-contact__mail {
   display: -webkit-box;
@@ -2121,6 +2133,12 @@ textarea:hover {
       -ms-flex-pack: start;
           justify-content: flex-start;
   margin-bottom: 64px;
+}
+.mobile-menu-contact__mail:hover, .mobile-menu-contact__mail:focus {
+  color: var(--blue);
+  -webkit-transition: var(--transition-hover);
+  transition: var(--transition-hover);
+  text-decoration: underline;
 }
 
 .mobile-menu-social {
@@ -2170,6 +2188,12 @@ textarea:hover {
   font-weight: 500;
   letter-spacing: 0.02em;
   font-family: Roboto;
+}
+.mobile-menu-social__link:hover, .mobile-menu-social__link:focus {
+  text-decoration: underline;
+  -webkit-transition: var(--transition-hover);
+  transition: var(--transition-hover);
+  color: var(--dark-blue);
 }
 
 .textmain {
