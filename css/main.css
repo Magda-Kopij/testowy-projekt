@@ -1985,6 +1985,9 @@ textarea:hover {
           justify-content: flex-end;
   justify-items: flex-end;
 }
+.menu-btn__icon:hover {
+  fill: var(--blue);
+}
 
 @media (max-width: 767px) {
   .menu-nav,
@@ -2080,6 +2083,87 @@ textarea:hover {
   padding: 10px;
   color: var(--black);
   text-decoration: none;
+}
+
+.mobile-menu-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mobile-menu-contact__telephone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--blue);
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  font-family: Roboto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 32px;
+}
+
+.mobile-menu-contact__mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mobile-menu-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.mobile-menu-social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.mobile-menu-social__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.mobile-menu-social__item:last-child {
+  border-right: none;
+}
+
+.mobile-menu-social__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: var(--blue);
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-family: Roboto;
 }
 
 .textmain {
