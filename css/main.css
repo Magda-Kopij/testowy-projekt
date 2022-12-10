@@ -330,6 +330,7 @@ img {
   text-align: center;
   margin: 0;
   padding: 0;
+  margin-bottom: 60px;
 }
 .footer-join__header {
   font-size: 14px;
@@ -622,7 +623,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 60px;
+  margin-bottom: 130px;
 }
 .footer-newsletter__header {
   color: var(--white);
@@ -631,7 +632,6 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   line-height: 16px;
-  padding-top: 70px;
   padding-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
