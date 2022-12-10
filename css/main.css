@@ -2061,7 +2061,7 @@ textarea:hover {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 796px;
+  height: 100vh;
   padding: 48px 40px 48px 40px;
   background-color: var(--white);
   z-index: 999;
@@ -2090,6 +2090,15 @@ textarea:hover {
   margin: 0;
   list-style: none;
   margin-bottom: 302px;
+}
+
+.close-btn-menu__icon {
+  fill: var(--black);
+}
+.close-btn-menu__icon:hover, .close-btn-menu__icon:focus {
+  fill: var(--blue);
+  -webkit-transition: var(--transition-hover);
+  transition: var(--transition-hover);
 }
 
 .mobile-menu-contact {
@@ -2148,6 +2157,8 @@ textarea:hover {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .mobile-menu-social__list {
@@ -2158,6 +2169,8 @@ textarea:hover {
       -ms-flex-pack: center;
           justify-content: center;
   list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .mobile-menu-social__item {
