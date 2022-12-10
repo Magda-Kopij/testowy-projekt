@@ -13,10 +13,7 @@
 @import "./components/header-contact";
 @import "./components/header-logo";
 @import "./components/hidden.scss";
-@import "./components/menu-close-btn";
-@import "./components/menu-hidden";
-@import "./components/menu-open-btn";
-@import "./components/mobile-menu";
+// @import "./components/mobile-menu";
 @import "./components/modal-btn";
 @import "./components/modal";
 @import "./components/overlay";
@@ -31,8 +28,10 @@
 @import "./layout/ourteam";
 @import "./layout/portfolio-gallery";
 @import "./layout/portfolio-menu";
+@import "./layout/proba-menu";
 @import "./layout/textmain";
 @import "./layout/whatwedo";
+// @import "./mobile-menu.scss";
 
 @import "./pages/index";
 @import "./pages/portfolio";
