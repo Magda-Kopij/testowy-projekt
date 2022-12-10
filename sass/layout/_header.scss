@@ -81,6 +81,7 @@
 .contact-header {
   box-sizing: border-box;
   display: flex;
+  flex-wrap:wrap;
   align-items: center; 
   
     &__icon {
@@ -103,4 +104,29 @@
 
 }
 
+@media screen and (min-width: 768px){
+  .contact-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 
+  }
+  .contact-header__mail,
+  .contact-header__tel{
+    padding: 10px;
+    margin: auto;
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 1200px){
+
+.contact-header__mail,
+  .contact-header__tel{
+    font-size: 14px;
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    }
+}

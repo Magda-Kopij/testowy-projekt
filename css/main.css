@@ -1489,6 +1489,8 @@ textarea:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1507,6 +1509,37 @@ textarea:hover {
   transition: var(--transition-hover);
 }
 
+@media screen and (min-width: 768px) {
+  .contact-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .contact-header__mail,
+.contact-header__tel {
+    padding: 10px;
+    margin: auto;
+    margin-left: 0;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact-header__mail,
+.contact-header__tel {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
 .section-ourclients {
   display: -webkit-box;
   display: -ms-flexbox;
