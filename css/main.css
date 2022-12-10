@@ -1961,7 +1961,6 @@ textarea:hover {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  fill: var(--black);
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -1972,8 +1971,7 @@ textarea:hover {
 }
 
 .menu-btn__icon {
-  fill: black;
-  display: block;
+  fill: var(--black);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1984,6 +1982,10 @@ textarea:hover {
       -ms-flex-pack: end;
           justify-content: flex-end;
   justify-items: flex-end;
+}
+
+.menu-btn__icon:hover {
+  fill: var(--blue);
 }
 
 .mobile-menu__link {
@@ -2054,10 +2056,9 @@ textarea:hover {
   left: 0;
   width: 100vw;
   height: 796px;
-  padding: 32px;
+  padding: 48px 40px 48px 40px;
   background-color: var(--white);
   z-index: 999;
-  margin: 48px 40px 48px 40px;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
@@ -2115,6 +2116,11 @@ textarea:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: var(--light-grey);
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 64px;
 }
 
 .mobile-menu-social {
