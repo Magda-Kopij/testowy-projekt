@@ -1,8 +1,6 @@
 @import "./base/common";
 @import "./base/container";
 @import "./base/section";
-// @import "./base/frame";
-
 @import "./components/animation";
 @import "./components/backdrop";
 @import "./components/close-btn-form.scss";
@@ -13,30 +11,18 @@
 @import "./components/header-contact";
 @import "./components/header-logo";
 @import "./components/hidden.scss";
-// @import "./components/mobile-menu";
-@import "./components/modal-btn";
-@import "./components/modal";
 @import "./components/overlay";
-@import "./components/what-we-do-hidden";
 
-
-
-
-
-@import "./layout/efective";
 @import "./layout/header";
 @import "./layout/footer";
-@import "./layout/ourclients";
-@import "./layout/ourteam";
 
-@import "./layout/proba-menu";
-@import "./layout/textmain";
-@import "./layout/whatwedo";
-// @import "./mobile-menu.scss";
+
+
+@import "./layout/portfolio-gallery";
+@import "./layout/portfolio-menu";
+@import "./pages/portfolio";
 
 @import "./pages/index";
 
-
-@import "./utils/variables";
 
 @import "./utils/variables";

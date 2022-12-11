@@ -1,6 +1,9 @@
 @media screen and (max-width: 1199px){
   .footer-newsletter__email{
-    width: 450px;
+    max-width: 450px;
+    min-width: 320px;
+    width: 100vw;
+
   }
   .footer-newsletter__label{
     flex-direction: column;
