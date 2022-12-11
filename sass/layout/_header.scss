@@ -21,14 +21,11 @@
   height: 16px;
   padding: 32px 0 32px 0;
 
-    &__item{
+  &__item {
     display: flex;
     align-items: center;
-    
   }
 }
-
-
 
 .navigation__link {
   /* font-family: Roboto; */
@@ -40,25 +37,25 @@
   padding: 23px;
   position: relative;
 
-    &:hover,
-    &:focus {
+  &:hover,
+  &:focus {
     color: var(--blue);
     transition: var(--transition-hover);
   }
 }
 
-.contact-header__mail{
+.contact-header__mail {
   color: var(--light-grey);
   font-size: 12px;
   margin: 0;
   padding-top: 32px;
   padding-bottom: 32px;
 
-    &:hover .contact-header__icon ,
-    &:focus .contact-header__icon {
-      fill: var(--blue);
-      transition: var(--transition-hover);
-    }
+  &:hover .contact-header__icon,
+  &:focus .contact-header__icon {
+    fill: var(--blue);
+    transition: var(--transition-hover);
+  }
 }
 
 .contact-header__tel {
@@ -68,51 +65,44 @@
   padding-top: 33px;
   padding-bottom: 31px;
 
-  &:hover .contact-header__icon ,
+  &:hover .contact-header__icon,
   &:focus .contact-header__icon {
     fill: var(--blue);
     transition: var(--transition-hover);
   }
 }
 
-
-
-
 .contact-header {
   box-sizing: border-box;
   display: flex;
-  flex-wrap:wrap;
-  align-items: center; 
-  
-    &__icon {
+  flex-wrap: wrap;
+  align-items: center;
+
+  &__icon {
     margin-right: 10px;
   }
 
-
-    &__mail:hover,
-    &__mail:focus {
+  &__mail:hover,
+  &__mail:focus {
     color: var(--blue);
     transition: var(--transition-hover);
+  }
+
+  &__tel:hover,
+  &__tel:focus {
+    color: var(--blue);
+    transition: var(--transition-hover);
+  }
 }
 
-    &__tel:hover,
-    &__tel:focus {
-      color: var(--blue);
-      transition: var(--transition-hover);
-    }
-
-
-}
-
-@media screen and (min-width: 768px){
-  .contact-header{
+@media screen and (min-width: 768px) {
+  .contact-header {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-
   }
   .contact-header__mail,
-  .contact-header__tel{
+  .contact-header__tel {
     padding: 10px;
     margin: auto;
     margin-left: 0;
@@ -120,13 +110,12 @@
   }
 }
 
-@media screen and (min-width: 1200px){
-
-.contact-header__mail,
-  .contact-header__tel{
+@media screen and (min-width: 1200px) {
+  .contact-header__mail,
+  .contact-header__tel {
     font-size: 14px;
     margin: 0;
     padding-top: 32px;
     padding-bottom: 32px;
-    }
+  }
 }
