@@ -1415,6 +1415,7 @@ textarea:hover {
   margin-right: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: relative;
 }
 
 .footer-title {
@@ -1430,6 +1431,9 @@ textarea:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -1446,10 +1450,11 @@ textarea:hover {
   line-height: 21px;
   text-transform: uppercase;
   color: #FFA5BA;
-  margin-top: 131px;
+  margin-top: 113px;
   margin-bottom: 17px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  text-align: left;
 }
 
 .footer-title-big {
@@ -1464,6 +1469,7 @@ textarea:hover {
   text-transform: uppercase;
   color: #D41443;
   letter-spacing: 0.04em;
+  text-align: left;
 }
 
 .footer-socialmedia {
@@ -1498,15 +1504,37 @@ textarea:hover {
           flex-direction: column;
 }
 
-.footer-end {
+.footer-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  border-top: 100vh;
-  border-top: 1px solid #E1E1E1;
-  margin: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-bottom: 43px;
+}
+
+.footer-contact__link {
+  color: #D41443;
+  text-align: right;
+}
+
+.footer-contact__text {
+  color: var(--black);
+  text-align: right;
 }
 
 @media screen and (min-width: 480px) {
